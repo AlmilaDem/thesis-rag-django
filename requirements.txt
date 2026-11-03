@@ -1,0 +1,10 @@
+mistralai>=2.0
+sentence-transformers
+numpy
+pandas
+requests
+beautifulsoup4
+scipy
+scikit-learn
+matplotlib
+openpyxl

@@ -1,0 +1,5 @@
+# RAGAS evaluation (ragas_eval.py). Versions are pinned because the RAGAS API changes between versions.
+ragas==0.2.15
+langchain-core>=0.3.30,<0.4
+langchain-mistralai>=0.2,<0.3
+langchain-huggingface>=0.1,<0.2
