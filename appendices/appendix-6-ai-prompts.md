@@ -177,3 +177,112 @@ In my thesis I classified the 60 answers of each grounding strategy to the unans
 I wrote: "Under G0 and G1, almost no answer was a correct refusal (0 and 4 of 60 answers), and 25 and 24 of 60 answers were unsupported answers. Under G2, 38 of 60 answers were correct refusals, and only one answer did not state that the information is missing. Under G0 and G1, about 40 % of the answers were unsupported."
 
 Can you check whether the totals and the percentage in my text are calculated correctly from these numbers?
+
+Prompt 16
+
+Tool: ChatGPT (OpenAI, GPT-5.5 Thinking)
+Used for: identifying possible information sources
+
+I am writing Section 1.7 (Question Types) of my bachelor thesis. In my experiment, I use five types of questions about software documentation: definition questions (what something is), how-to questions (how to do something), troubleshooting questions (why something does not work and how to fix it), configuration questions (how to set an option or a setting) and API usage questions (how to use a function, class or parameter). I want to justify these types with the literature. Which research areas study the types of questions that developers ask (for example studies of Stack Overflow questions, studies of API documentation, or question classification in question answering), and which search keywords should I use to find papers that describe similar categories? I will read and check every source myself.
+
+Prompt 17
+
+Tool: ChatGPT (OpenAI, GPT-5.5 Thinking)
+Used for: organising possible information sources
+
+For Section 1.6 (Evaluation of Answer Quality) of my thesis I want to compare the evaluation approaches that I found. Can you help me organise them in a table with the columns "approach", "what is evaluated", "how it is evaluated (LLM judge, reference answer, human annotation)" and "metrics"? These are the approaches and what I know about them:
+
+RAGAS (Es et al., 2024): reference-free evaluation of RAG; evaluates whether the retrieved context is relevant and focused and whether the LLM uses the context faithfully; the library offers Faithfulness, Response Relevancy, Context Precision, Context Recall, Factual Correctness and Rubrics Based Scoring.
+ARES (Saad-Falcon et al., 2024): fine-tunes lightweight LLM judges with synthetic data and about 150 human-annotated examples; evaluates context relevance, answer faithfulness and answer relevance.
+Yu et al. (2024): survey of RAG evaluation; describes metrics for retrieval and generation such as relevance, accuracy and faithfulness and gives an overview of benchmarks.
+Stolfo (2024): checks whether each sentence of a long-form answer is grounded in the retrieved documents.
+Wallat et al. (2025): shows that a citation can be correct without the model having actually used the cited document (correctness is not faithfulness).
+
+Which of these approaches evaluate the same aspects, and which aspect is not covered by any of them?
+
+Prompt 18
+
+Tool: ChatGPT (OpenAI, GPT-5.5 Thinking)
+Used for: grammar correction
+
+English is not my first language. Can you check the grammar, spelling and punctuation of the following paragraph from the abstract of my bachelor thesis? Please correct only real mistakes, keep my wording, and list every change you made.
+
+"The formatting strategies had only a small effect on the scores: short paragraph answers had the highest faithfulness, and step-by-step answers the lowest technical correctness and faithfulness. The grounding strategies did not significantly changed the scores of the answers to the answerable questions, but source-restricted answering clearly increased the number of correct refusals to the unanswerable questions (38 of 60 answers, compared with almost none without it). The best combination differed between the question types, but the differences was small."
+
+Prompt 19
+
+Tool: Claude (Anthropic, Claude Opus 5.5)
+Used for: planning the structure and content of the chapters
+
+I am writing Section 1.8 (Research Gap) of my bachelor thesis. It should summarise the analytical review and lead to my research questions. These are the main points of my review:
+
+RAG adds information from external sources to the answers of an LLM, which is useful in domain-specific question answering, where the knowledge of the LLM may be incomplete or outdated (Lewis et al., 2020; Es et al., 2024; Sharma et al., 2024).
+Software documentation contains technical and frequently changing information, and code examples are the most helpful part of API documentation for LLMs (Wang et al., 2026; Watson et al., 2013; Chen et al., 2025).
+RAG systems can give answers that are not grounded in the retrieved texts, and citations do not necessarily show the sources that the model actually used (Elchafei et al., 2026; Stolfo, 2024; Wallat et al., 2025).
+The format of an answer matters for its usefulness (Perera and Nand, 2016; Lin et al., 2003), and users of a help system preferred answers with discrete steps (Sharma et al., 2024).
+Different question types may need different answers, but I did not find a study that compares formatting and grounding strategies for different types of software documentation questions.
+
+My research questions are: RQ1 – How do the formatting strategies affect the quality of the answers? RQ2 – How do the grounding strategies affect the quality of the answers and the behaviour of the LLMs on questions that cannot be answered from the documentation? RQ3 – Which combination of strategies is most suitable for each question type?
+
+In which order should I present these points so that the research gap and the research questions follow logically from them? Is there a point that is missing or that does not support the gap?
+
+Prompt 20
+
+Tool: Claude (Anthropic, Claude Opus 5.5)
+Used for: planning the structure and content of the chapters
+
+I am writing Section 5.8 (Limitations) of my bachelor thesis. These are the limitations that I want to describe:
+
+the corpus contained only five pages of the Django 5.2 documentation;
+the question set had only 25 answerable and 10 unanswerable questions (five and two per question type), so no statistical tests were possible for the question types;
+the questions and reference answers were written by me, and the technical correctness scores depend on how complete the reference answers are;
+only two formatting and two grounding strategies were tested, each with one fixed wording of the instruction;
+only two small LLMs of the same family (ministral-3b-2512 and ministral-8b-2512) were used;
+the answers were scored by an LLM (ministral-14b-2512) with RAGAS, and almost all answers received the highest clarity score (424 of 450);
+repeated answers to the same prompt were not identical even with a temperature of 0 and a fixed seed;
+I did not check whether the cited chunks actually support the claims of the G1 answers;
+the manual scoring by an external reviewer was not finished yet.
+
+How can I group these limitations into a few categories so that the section is easy to read? For each category, which consequence for the interpretation of my results should I mention?
+
+Prompt 21
+
+Tool: Claude (Anthropic, Claude Opus 5.5)
+Used for: language editing
+
+Here is the first paragraph of the introduction of my bachelor thesis. Can you improve the flow between the sentences? Keep my sentences and all citations, do not add new information or new citations, and change only the connections between the sentences where it is necessary. Show me what you changed.
+
+"The topicality of this bachelor thesis can be explained by the increasing use of Retrieval-Augmented Generation (RAG) systems (Yu, Gan et al., 2024), including technical and domain-specific question answering tasks (Sharma, Yoon et al., 2024). Large language models (LLMs) can generate fluent answers. However, their knowledge may be limited and difficult to update (Lewis, Perez et al., 2020), and they may not be able to answer questions about events that happened after their training (Es, James et al., 2024). In addition, they may generate unsupported information (hallucinations) during question answering (Es, James et al., 2024). On the other hand, RAG combines the LLM with information retrieved from external sources, allowing the system to use relevant sources during answer generation (Lewis, Perez et al., 2020; Es, James et al., 2024)."
+
+Prompt 22
+
+Tool: Claude (Anthropic, Claude Opus 5.5)
+Used for: checking the citations against the original sources
+
+In Section 1.6 of my thesis I wrote the following two sentences:
+
+"Es et al. introduce RAGAS, a framework for evaluating RAG-based systems, which considers both the ability of the retrieval component to find relevant and focused context and the ability of the LLM to use this context faithfully (Es, James et al., 2024)."
+
+"Saad-Falcon et al. introduce ARES, which fine-tunes lightweight LLM judges with synthetic training data and a small set of about 150 human-annotated examples, and evaluates three aspects of RAG systems: context relevance, answer faithfulness and answer relevance (Saad-Falcon, Khattab et al., 2024)."
+
+The sources are: Es, S., James, J., Espinosa-Anke, L., and Schockaert, S. RAGAS: Automated Evaluation of Retrieval Augmented Generation. EACL 2024 System Demonstrations, pp. 150–158; and Saad-Falcon, J., Khattab, O., Potts, C., and Zaharia, M. ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems. NAACL 2024. Do the papers really say this? In particular, is "about 150 human-annotated examples" correct for ARES, and are the three aspects named correctly?
+
+Prompt 23
+
+Tool: Claude (Anthropic, Claude Opus 5.5)
+Used for: checking the consistency between the text and the source code
+
+In Section 3.7 of my thesis, Table 3.6 gives the instructions of the grounding strategies: G0 – no instruction about sources; G1 – "After each claim, add the number of the chunk that supports it in square brackets, for example [1]."; G2 – "Use only the information in the provided documentation. If the answer is not in the documentation, say: 'The answer cannot be found in the provided documentation.'" In Section 4.5 I wrote that the script auto_checks.py checks whether an answer contains the sentence "cannot be found in the provided documentation".
+
+This is the part of my config.py that defines the instructions:
+
+REFUSAL_SENTENCE = "The answer cannot be found in the provided documentation."
+GROUNDING = {
+"G0": "",
+"G1": "After each claim, add the number of the chunk that supports it in square "
+"brackets, for example [1].",
+"G2": "Use only the information in the provided documentation. If the answer is "
+f"not in the documentation, say: '{REFUSAL_SENTENCE}'",
+}
+
+Are the instructions in my table exactly the same as in the code? Does the sentence that the check looks for match the refusal sentence of G2?
