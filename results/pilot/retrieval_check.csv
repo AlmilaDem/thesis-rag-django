@@ -1,0 +1,13 @@
+id,type,answerable,page_hit,section_hit,retrieved
+P01,definition,True,True,True,models/Models ; models/Model attributes ; models/Model methods ; models/Relationships ; models/Quick example
+P02,definition,True,True,False,logging/Configuring logging ; logging/Configuring logging ; logging/Overview ; logging/Examples ; logging/Custom logging configuration
+P03,how-to,True,True,True,logging/Loggers ; logging/Handlers ; logging/Loggers ; logging/Examples ; logging/Handlers
+P04,how-to,True,True,True,urls/Using regular expressions ; urls/Example ; urls/Using regular expressions ; urls/Specifying defaults for view arguments ; urls/Using unnamed regular expression groups
+P05,troubleshooting,True,True,True,logging/Loggers ; logging/Examples ; logging/Examples ; logging/Examples ; logging/Examples
+P06,troubleshooting,True,True,False,urls/Reverse resolution of URLs ; urls/Examples ; urls/Reverse resolution of URLs ; urls/Reversing namespaced URLs ; urls/Naming URL patterns
+P07,configuration,True,True,True,deployment/Performance optimizations ; deployment/DEBUG ; settings/Custom default settings ; logging/Examples ; logging/Disabling logging configuration
+P08,configuration,True,True,True,settings/Django settings ; settings/Using settings in Python code ; settings/Available settings ; settings/Default settings ; settings/Designating the settings
+P09,api usage,True,True,True,urls/Nested arguments ; urls/Reverse resolution of URLs ; urls/Reverse resolution of URLs ; urls/Examples ; urls/Nested arguments
+P10,api usage,True,True,True,models/Many-to-one relationships ; models/Many-to-one relationships ; models/One-to-one relationships ; models/Many-to-many relationships ; models/Many-to-one relationships
+P11,configuration,False,,,logging/Disabling logging configuration ; logging/Configuring logging ; settings/Custom default settings ; logging/Disabling logging configuration ; logging/Security implications
+P12,api usage,False,,,urls/Reverse resolution of URLs ; urls/Reverse resolution of URLs ; deployment/STATIC_ROOT and STATIC_URL ; urls/URL dispatcher ; urls/Naming URL patterns

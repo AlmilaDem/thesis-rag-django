@@ -1,0 +1,51 @@
+id,type,k,page_hit,section_hit
+P01,definition,1,True,True
+P01,definition,3,True,True
+P01,definition,5,True,True
+P01,definition,7,True,True
+P01,definition,10,True,True
+P02,definition,1,True,False
+P02,definition,3,True,False
+P02,definition,5,True,False
+P02,definition,7,True,False
+P02,definition,10,True,True
+P03,how-to,1,True,False
+P03,how-to,3,True,False
+P03,how-to,5,True,True
+P03,how-to,7,True,True
+P03,how-to,10,True,True
+P04,how-to,1,True,False
+P04,how-to,3,True,True
+P04,how-to,5,True,True
+P04,how-to,7,True,True
+P04,how-to,10,True,True
+P05,troubleshooting,1,True,False
+P05,troubleshooting,3,True,True
+P05,troubleshooting,5,True,True
+P05,troubleshooting,7,True,True
+P05,troubleshooting,10,True,True
+P06,troubleshooting,1,True,False
+P06,troubleshooting,3,True,False
+P06,troubleshooting,5,True,False
+P06,troubleshooting,7,True,False
+P06,troubleshooting,10,True,False
+P07,configuration,1,True,False
+P07,configuration,3,True,True
+P07,configuration,5,True,True
+P07,configuration,7,True,True
+P07,configuration,10,True,True
+P08,configuration,1,True,False
+P08,configuration,3,True,False
+P08,configuration,5,True,True
+P08,configuration,7,True,True
+P08,configuration,10,True,True
+P09,api usage,1,True,False
+P09,api usage,3,True,False
+P09,api usage,5,True,True
+P09,api usage,7,True,True
+P09,api usage,10,True,True
+P10,api usage,1,True,True
+P10,api usage,3,True,True
+P10,api usage,5,True,True
+P10,api usage,7,True,True
+P10,api usage,10,True,True

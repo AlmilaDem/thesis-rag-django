@@ -1,0 +1,7 @@
+metric,contrast,n_questions,effect_under_F0,effect_under_F1,effect_under_F2,friedman_chi2,friedman_p,kendall_w,p_holm
+overall,G1-G0,25,0.0092,0.0051,0.0008,0.0,1.0,0.0,1.0
+overall,G2-G0,25,0.0271,0.0018,-0.0227,2.96,0.2276,0.0592,0.4553
+faithfulness,G1-G0,25,0.026,0.0146,0.0312,0.0,1.0,0.0,1.0
+faithfulness,G2-G0,25,0.0613,0.0235,0.028,2.5657,0.2773,0.0513,0.5545
+technical_correctness,G1-G0,25,0.044,0.0048,0.021,2.0,0.3679,0.04,0.7358
+technical_correctness,G2-G0,25,0.0602,-0.0088,0.0196,0.56,0.7558,0.0112,0.7558

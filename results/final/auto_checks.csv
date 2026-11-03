@@ -1,0 +1,631 @@
+answer_id,question_id,llm,type,answerable,formatting,grounding,n_chars,n_sentences,has_list,has_heading,format_compliant,n_citations,has_citation,citations_valid,is_refusal,acknowledges_missing,correct_refusal,false_refusal,unanswerable_acknowledged
+Q01_3b_F0_G0,Q01,3b,definition,True,F0,G0,761,1,True,False,,0,False,,False,False,,False,
+Q01_3b_F0_G1,Q01,3b,definition,True,F0,G1,903,2,True,False,,2,True,True,False,False,,False,
+Q01_3b_F0_G2,Q01,3b,definition,True,F0,G2,692,7,True,True,,0,False,,False,False,,False,
+Q01_3b_F1_G0,Q01,3b,definition,True,F1,G0,553,2,False,False,False,0,False,,False,False,,False,
+Q01_3b_F1_G1,Q01,3b,definition,True,F1,G1,516,3,False,False,True,1,True,True,False,False,,False,
+Q01_3b_F1_G2,Q01,3b,definition,True,F1,G2,545,3,False,False,True,0,False,,False,False,,False,
+Q01_3b_F2_G0,Q01,3b,definition,True,F2,G0,1280,4,True,False,True,0,False,,False,False,,False,
+Q01_3b_F2_G1,Q01,3b,definition,True,F2,G1,989,3,True,False,True,1,True,True,False,False,,False,
+Q01_3b_F2_G2,Q01,3b,definition,True,F2,G2,842,2,True,True,True,0,False,,False,False,,False,
+Q01_8b_F0_G0,Q01,8b,definition,True,F0,G0,1146,2,True,True,,2,True,True,False,False,,False,
+Q01_8b_F0_G1,Q01,8b,definition,True,F0,G1,948,4,True,True,,3,True,True,False,False,,False,
+Q01_8b_F0_G2,Q01,8b,definition,True,F0,G2,945,7,True,True,,0,False,,False,False,,False,
+Q01_8b_F1_G0,Q01,8b,definition,True,F1,G0,801,5,False,False,True,0,False,,False,False,,False,
+Q01_8b_F1_G1,Q01,8b,definition,True,F1,G1,808,5,False,False,True,3,True,True,False,False,,False,
+Q01_8b_F1_G2,Q01,8b,definition,True,F1,G2,699,5,False,False,True,0,False,,False,False,,False,
+Q01_8b_F2_G0,Q01,8b,definition,True,F2,G0,1487,8,True,False,True,4,True,True,False,False,,False,
+Q01_8b_F2_G1,Q01,8b,definition,True,F2,G1,846,3,True,False,True,4,True,True,False,False,,False,
+Q01_8b_F2_G2,Q01,8b,definition,True,F2,G2,849,2,True,True,True,0,False,,False,False,,False,
+Q02_3b_F0_G0,Q02,3b,definition,True,F0,G0,1020,4,True,True,,0,False,,False,False,,False,
+Q02_3b_F0_G1,Q02,3b,definition,True,F0,G1,1451,5,True,False,,5,True,True,False,False,,False,
+Q02_3b_F0_G2,Q02,3b,definition,True,F0,G2,1035,4,True,True,,0,False,,False,False,,False,
+Q02_3b_F1_G0,Q02,3b,definition,True,F1,G0,657,4,False,False,True,0,False,,False,False,,False,
+Q02_3b_F1_G1,Q02,3b,definition,True,F1,G1,700,4,False,False,True,3,True,True,False,False,,False,
+Q02_3b_F1_G2,Q02,3b,definition,True,F1,G2,626,4,False,False,True,0,False,,False,False,,False,
+Q02_3b_F2_G0,Q02,3b,definition,True,F2,G0,2449,9,True,False,True,0,False,,False,False,,False,
+Q02_3b_F2_G1,Q02,3b,definition,True,F2,G1,2026,6,True,False,True,8,True,True,False,False,,False,
+Q02_3b_F2_G2,Q02,3b,definition,True,F2,G2,1461,6,True,False,True,0,False,,False,True,,False,
+Q02_8b_F0_G0,Q02,8b,definition,True,F0,G0,1847,5,True,True,,2,True,True,False,False,,False,
+Q02_8b_F0_G1,Q02,8b,definition,True,F0,G1,1587,10,True,False,,7,True,True,False,False,,False,
+Q02_8b_F0_G2,Q02,8b,definition,True,F0,G2,1129,4,True,False,,0,False,,False,False,,False,
+Q02_8b_F1_G0,Q02,8b,definition,True,F1,G0,713,5,False,False,True,0,False,,False,False,,False,
+Q02_8b_F1_G1,Q02,8b,definition,True,F1,G1,922,5,False,False,True,4,True,True,False,False,,False,
+Q02_8b_F1_G2,Q02,8b,definition,True,F1,G2,923,5,False,False,True,0,False,,False,True,,False,
+Q02_8b_F2_G0,Q02,8b,definition,True,F2,G0,3127,8,True,True,True,2,True,True,False,False,,False,
+Q02_8b_F2_G1,Q02,8b,definition,True,F2,G1,2448,9,True,True,True,8,True,True,False,False,,False,
+Q02_8b_F2_G2,Q02,8b,definition,True,F2,G2,1885,9,True,False,True,3,True,True,False,False,,False,
+Q03_3b_F0_G0,Q03,3b,definition,True,F0,G0,1755,5,True,True,,0,False,,False,False,,False,
+Q03_3b_F0_G1,Q03,3b,definition,True,F0,G1,1065,3,True,False,,6,True,True,False,False,,False,
+Q03_3b_F0_G2,Q03,3b,definition,True,F0,G2,928,3,True,False,,0,False,,False,False,,False,
+Q03_3b_F1_G0,Q03,3b,definition,True,F1,G0,699,4,False,False,True,0,False,,False,False,,False,
+Q03_3b_F1_G1,Q03,3b,definition,True,F1,G1,738,4,False,False,True,4,True,True,False,False,,False,
+Q03_3b_F1_G2,Q03,3b,definition,True,F1,G2,647,4,False,False,True,0,False,,False,False,,False,
+Q03_3b_F2_G0,Q03,3b,definition,True,F2,G0,2257,6,True,False,True,0,False,,False,False,,False,
+Q03_3b_F2_G1,Q03,3b,definition,True,F2,G1,1737,7,True,False,True,9,True,True,False,False,,False,
+Q03_3b_F2_G2,Q03,3b,definition,True,F2,G2,1397,1,True,True,True,13,True,True,False,False,,False,
+Q03_8b_F0_G0,Q03,8b,definition,True,F0,G0,1801,7,True,True,,3,True,True,False,False,,False,
+Q03_8b_F0_G1,Q03,8b,definition,True,F0,G1,1254,8,True,False,,15,True,True,False,False,,False,
+Q03_8b_F0_G2,Q03,8b,definition,True,F0,G2,992,4,True,False,,8,True,True,False,False,,False,
+Q03_8b_F1_G0,Q03,8b,definition,True,F1,G0,723,5,False,False,True,0,False,,False,False,,False,
+Q03_8b_F1_G1,Q03,8b,definition,True,F1,G1,930,5,False,False,True,8,True,True,False,False,,False,
+Q03_8b_F1_G2,Q03,8b,definition,True,F1,G2,870,5,False,False,True,0,False,,False,False,,False,
+Q03_8b_F2_G0,Q03,8b,definition,True,F2,G0,2670,11,True,False,True,0,False,,False,False,,False,
+Q03_8b_F2_G1,Q03,8b,definition,True,F2,G1,1922,1,True,False,True,14,True,True,False,False,,False,
+Q03_8b_F2_G2,Q03,8b,definition,True,F2,G2,2501,7,True,True,True,22,True,True,False,False,,False,
+Q04_3b_F0_G0,Q04,3b,definition,True,F0,G0,730,4,True,False,,0,False,,False,False,,False,
+Q04_3b_F0_G1,Q04,3b,definition,True,F0,G1,668,3,True,False,,3,True,True,False,False,,False,
+Q04_3b_F0_G2,Q04,3b,definition,True,F0,G2,578,3,True,False,,0,False,,False,False,,False,
+Q04_3b_F1_G0,Q04,3b,definition,True,F1,G0,664,4,False,False,True,0,False,,False,False,,False,
+Q04_3b_F1_G1,Q04,3b,definition,True,F1,G1,531,4,False,False,True,3,True,True,False,False,,False,
+Q04_3b_F1_G2,Q04,3b,definition,True,F1,G2,602,4,False,False,True,0,False,,False,False,,False,
+Q04_3b_F2_G0,Q04,3b,definition,True,F2,G0,2159,7,True,False,True,9,True,True,False,False,,False,
+Q04_3b_F2_G1,Q04,3b,definition,True,F2,G1,911,1,True,False,True,10,True,True,False,False,,False,
+Q04_3b_F2_G2,Q04,3b,definition,True,F2,G2,1198,5,True,False,True,0,False,,False,True,,False,
+Q04_8b_F0_G0,Q04,8b,definition,True,F0,G0,834,5,True,False,,3,True,True,False,False,,False,
+Q04_8b_F0_G1,Q04,8b,definition,True,F0,G1,957,3,True,False,,6,True,True,False,False,,False,
+Q04_8b_F0_G2,Q04,8b,definition,True,F0,G2,763,5,True,False,,3,True,True,False,False,,False,
+Q04_8b_F1_G0,Q04,8b,definition,True,F1,G0,689,5,False,False,True,2,True,True,False,False,,False,
+Q04_8b_F1_G1,Q04,8b,definition,True,F1,G1,646,5,False,False,True,2,True,True,False,False,,False,
+Q04_8b_F1_G2,Q04,8b,definition,True,F1,G2,667,5,False,False,True,0,False,,False,False,,False,
+Q04_8b_F2_G0,Q04,8b,definition,True,F2,G0,2083,10,True,False,True,5,True,True,False,False,,False,
+Q04_8b_F2_G1,Q04,8b,definition,True,F2,G1,2128,3,True,True,True,21,True,True,False,False,,False,
+Q04_8b_F2_G2,Q04,8b,definition,True,F2,G2,1432,8,True,True,True,2,True,True,True,True,,True,
+Q05_3b_F0_G0,Q05,3b,definition,True,F0,G0,1185,4,True,True,,5,True,True,False,False,,False,
+Q05_3b_F0_G1,Q05,3b,definition,True,F0,G1,1369,12,True,False,,5,True,True,False,False,,False,
+Q05_3b_F0_G2,Q05,3b,definition,True,F0,G2,650,4,False,False,,0,False,,False,False,,False,
+Q05_3b_F1_G0,Q05,3b,definition,True,F1,G0,701,4,False,False,True,0,False,,False,False,,False,
+Q05_3b_F1_G1,Q05,3b,definition,True,F1,G1,642,4,False,False,True,3,True,True,False,False,,False,
+Q05_3b_F1_G2,Q05,3b,definition,True,F1,G2,632,4,False,False,True,0,False,,False,False,,False,
+Q05_3b_F2_G0,Q05,3b,definition,True,F2,G0,2546,15,True,True,True,7,True,True,False,False,,False,
+Q05_3b_F2_G1,Q05,3b,definition,True,F2,G1,1354,10,True,False,True,5,True,True,False,False,,False,
+Q05_3b_F2_G2,Q05,3b,definition,True,F2,G2,1452,5,True,False,True,1,True,True,False,True,,False,
+Q05_8b_F0_G0,Q05,8b,definition,True,F0,G0,1374,6,True,False,,3,True,True,False,False,,False,
+Q05_8b_F0_G1,Q05,8b,definition,True,F0,G1,779,4,True,False,,6,True,True,False,False,,False,
+Q05_8b_F0_G2,Q05,8b,definition,True,F0,G2,750,3,True,False,,5,True,True,False,False,,False,
+Q05_8b_F1_G0,Q05,8b,definition,True,F1,G0,821,5,False,False,True,0,False,,False,False,,False,
+Q05_8b_F1_G1,Q05,8b,definition,True,F1,G1,914,5,False,False,True,4,True,True,False,False,,False,
+Q05_8b_F1_G2,Q05,8b,definition,True,F1,G2,796,5,False,False,True,0,False,,False,False,,False,
+Q05_8b_F2_G0,Q05,8b,definition,True,F2,G0,2182,6,True,False,True,7,True,True,False,False,,False,
+Q05_8b_F2_G1,Q05,8b,definition,True,F2,G1,2119,3,True,True,True,9,True,True,False,False,,False,
+Q05_8b_F2_G2,Q05,8b,definition,True,F2,G2,1531,6,True,False,True,9,True,True,False,False,,False,
+Q06_3b_F0_G0,Q06,3b,how-to,True,F0,G0,727,4,True,True,,0,False,,False,False,,False,
+Q06_3b_F0_G1,Q06,3b,how-to,True,F0,G1,626,4,True,True,,2,True,True,False,False,,False,
+Q06_3b_F0_G2,Q06,3b,how-to,True,F0,G2,491,4,True,True,,0,False,,False,False,,False,
+Q06_3b_F1_G0,Q06,3b,how-to,True,F1,G0,569,4,False,False,True,0,False,,False,False,,False,
+Q06_3b_F1_G1,Q06,3b,how-to,True,F1,G1,598,3,False,False,True,1,True,True,False,False,,False,
+Q06_3b_F1_G2,Q06,3b,how-to,True,F1,G2,439,3,False,False,True,0,False,,False,False,,False,
+Q06_3b_F2_G0,Q06,3b,how-to,True,F2,G0,1360,6,True,True,True,0,False,,False,False,,False,
+Q06_3b_F2_G1,Q06,3b,how-to,True,F2,G1,947,8,True,True,True,1,True,True,False,False,,False,
+Q06_3b_F2_G2,Q06,3b,how-to,True,F2,G2,965,6,True,True,True,0,False,,False,False,,False,
+Q06_8b_F0_G0,Q06,8b,how-to,True,F0,G0,1108,4,True,True,,4,True,True,False,False,,False,
+Q06_8b_F0_G1,Q06,8b,how-to,True,F0,G1,895,4,True,False,,5,True,True,False,False,,False,
+Q06_8b_F0_G2,Q06,8b,how-to,True,F0,G2,649,4,True,True,,1,True,True,False,False,,False,
+Q06_8b_F1_G0,Q06,8b,how-to,True,F1,G0,721,5,False,False,True,0,False,,False,False,,False,
+Q06_8b_F1_G1,Q06,8b,how-to,True,F1,G1,701,5,False,False,True,2,True,True,False,False,,False,
+Q06_8b_F1_G2,Q06,8b,how-to,True,F1,G2,648,5,False,False,True,0,False,,False,False,,False,
+Q06_8b_F2_G0,Q06,8b,how-to,True,F2,G0,1543,3,True,True,True,0,False,,False,False,,False,
+Q06_8b_F2_G1,Q06,8b,how-to,True,F2,G1,1250,7,True,True,True,5,True,True,False,False,,False,
+Q06_8b_F2_G2,Q06,8b,how-to,True,F2,G2,935,3,True,True,True,1,True,True,False,False,,False,
+Q07_3b_F0_G0,Q07,3b,how-to,True,F0,G0,2415,6,True,True,,3,True,True,False,True,,False,
+Q07_3b_F0_G1,Q07,3b,how-to,True,F0,G1,1482,5,True,False,,5,True,True,False,False,,False,
+Q07_3b_F0_G2,Q07,3b,how-to,True,F0,G2,841,6,True,False,,0,False,,False,True,,False,
+Q07_3b_F1_G0,Q07,3b,how-to,True,F1,G0,662,4,False,False,True,0,False,,False,False,,False,
+Q07_3b_F1_G1,Q07,3b,how-to,True,F1,G1,607,3,False,False,True,2,True,True,False,False,,False,
+Q07_3b_F1_G2,Q07,3b,how-to,True,F1,G2,516,3,False,False,True,0,False,,False,False,,False,
+Q07_3b_F2_G0,Q07,3b,how-to,True,F2,G0,3055,8,True,True,True,0,False,,False,False,,False,
+Q07_3b_F2_G1,Q07,3b,how-to,True,F2,G1,2356,5,True,True,True,9,True,True,False,False,,False,
+Q07_3b_F2_G2,Q07,3b,how-to,True,F2,G2,1229,7,True,False,True,0,False,,True,True,,True,
+Q07_8b_F0_G0,Q07,8b,how-to,True,F0,G0,2296,7,True,True,,2,True,True,False,False,,False,
+Q07_8b_F0_G1,Q07,8b,how-to,True,F0,G1,2064,10,True,False,,4,True,True,False,False,,False,
+Q07_8b_F0_G2,Q07,8b,how-to,True,F0,G2,1103,5,True,True,,4,True,True,False,False,,False,
+Q07_8b_F1_G0,Q07,8b,how-to,True,F1,G0,742,5,False,False,True,0,False,,False,False,,False,
+Q07_8b_F1_G1,Q07,8b,how-to,True,F1,G1,776,5,False,False,True,3,True,True,False,False,,False,
+Q07_8b_F1_G2,Q07,8b,how-to,True,F1,G2,797,5,False,False,True,0,False,,False,True,,False,
+Q07_8b_F2_G0,Q07,8b,how-to,True,F2,G0,1855,9,True,True,True,0,False,,False,False,,False,
+Q07_8b_F2_G1,Q07,8b,how-to,True,F2,G1,973,1,True,True,True,6,True,True,False,False,,False,
+Q07_8b_F2_G2,Q07,8b,how-to,True,F2,G2,939,5,True,False,True,0,False,,False,True,,False,
+Q08_3b_F0_G0,Q08,3b,how-to,True,F0,G0,2013,6,True,True,,0,False,,False,False,,False,
+Q08_3b_F0_G1,Q08,3b,how-to,True,F0,G1,1967,4,True,False,,5,True,True,False,False,,False,
+Q08_3b_F0_G2,Q08,3b,how-to,True,F0,G2,1734,10,True,True,,0,False,,False,False,,False,
+Q08_3b_F1_G0,Q08,3b,how-to,True,F1,G0,610,4,False,False,True,0,False,,False,False,,False,
+Q08_3b_F1_G1,Q08,3b,how-to,True,F1,G1,663,4,False,False,True,2,True,True,False,False,,False,
+Q08_3b_F1_G2,Q08,3b,how-to,True,F1,G2,703,4,False,False,True,0,False,,False,False,,False,
+Q08_3b_F2_G0,Q08,3b,how-to,True,F2,G0,2740,5,True,True,True,0,False,,False,False,,False,
+Q08_3b_F2_G1,Q08,3b,how-to,True,F2,G1,2062,10,True,True,True,9,True,True,False,False,,False,
+Q08_3b_F2_G2,Q08,3b,how-to,True,F2,G2,1770,4,True,False,True,0,False,,False,True,,False,
+Q08_8b_F0_G0,Q08,8b,how-to,True,F0,G0,2995,10,True,True,,4,True,True,False,False,,False,
+Q08_8b_F0_G1,Q08,8b,how-to,True,F0,G1,2969,6,True,True,,10,True,True,False,False,,False,
+Q08_8b_F0_G2,Q08,8b,how-to,True,F0,G2,1737,11,True,False,,5,True,True,False,False,,False,
+Q08_8b_F1_G0,Q08,8b,how-to,True,F1,G0,648,5,False,False,True,0,False,,False,False,,False,
+Q08_8b_F1_G1,Q08,8b,how-to,True,F1,G1,751,5,False,False,True,3,True,True,False,False,,False,
+Q08_8b_F1_G2,Q08,8b,how-to,True,F1,G2,735,5,False,False,True,0,False,,False,False,,False,
+Q08_8b_F2_G0,Q08,8b,how-to,True,F2,G0,2078,7,True,True,True,0,False,,False,False,,False,
+Q08_8b_F2_G1,Q08,8b,how-to,True,F2,G1,1913,11,True,True,True,4,True,True,False,False,,False,
+Q08_8b_F2_G2,Q08,8b,how-to,True,F2,G2,1617,8,True,True,True,1,True,True,False,False,,False,
+Q09_3b_F0_G0,Q09,3b,how-to,True,F0,G0,859,4,True,True,,0,False,,False,False,,False,
+Q09_3b_F0_G1,Q09,3b,how-to,True,F0,G1,1309,8,True,True,,4,True,True,False,False,,False,
+Q09_3b_F0_G2,Q09,3b,how-to,True,F0,G2,809,5,True,True,,0,False,,False,False,,False,
+Q09_3b_F1_G0,Q09,3b,how-to,True,F1,G0,692,4,False,False,True,0,False,,False,False,,False,
+Q09_3b_F1_G1,Q09,3b,how-to,True,F1,G1,655,4,False,False,True,2,True,True,False,False,,False,
+Q09_3b_F1_G2,Q09,3b,how-to,True,F1,G2,624,4,False,False,True,0,False,,False,False,,False,
+Q09_3b_F2_G0,Q09,3b,how-to,True,F2,G0,1753,9,True,True,True,0,False,,False,False,,False,
+Q09_3b_F2_G1,Q09,3b,how-to,True,F2,G1,886,5,True,False,True,2,True,True,False,False,,False,
+Q09_3b_F2_G2,Q09,3b,how-to,True,F2,G2,848,4,True,True,True,0,False,,True,True,,True,
+Q09_8b_F0_G0,Q09,8b,how-to,True,F0,G0,1806,4,True,True,,0,False,,False,False,,False,
+Q09_8b_F0_G1,Q09,8b,how-to,True,F0,G1,843,9,True,True,,4,True,True,False,False,,False,
+Q09_8b_F0_G2,Q09,8b,how-to,True,F0,G2,660,5,True,True,,1,True,True,False,False,,False,
+Q09_8b_F1_G0,Q09,8b,how-to,True,F1,G0,676,5,False,False,True,0,False,,False,False,,False,
+Q09_8b_F1_G1,Q09,8b,how-to,True,F1,G1,791,5,False,False,True,3,True,True,False,False,,False,
+Q09_8b_F1_G2,Q09,8b,how-to,True,F1,G2,769,5,False,False,True,0,False,,False,False,,False,
+Q09_8b_F2_G0,Q09,8b,how-to,True,F2,G0,1385,8,True,True,True,0,False,,False,False,,False,
+Q09_8b_F2_G1,Q09,8b,how-to,True,F2,G1,1116,6,True,False,True,5,True,True,False,False,,False,
+Q09_8b_F2_G2,Q09,8b,how-to,True,F2,G2,888,5,True,False,True,0,False,,False,False,,False,
+Q10_3b_F0_G0,Q10,3b,how-to,True,F0,G0,1020,4,True,False,,2,True,True,False,False,,False,
+Q10_3b_F0_G1,Q10,3b,how-to,True,F0,G1,1508,11,True,True,,3,True,True,False,False,,False,
+Q10_3b_F0_G2,Q10,3b,how-to,True,F0,G2,470,3,False,False,,0,False,,False,False,,False,
+Q10_3b_F1_G0,Q10,3b,how-to,True,F1,G0,720,5,False,False,True,0,False,,False,False,,False,
+Q10_3b_F1_G1,Q10,3b,how-to,True,F1,G1,714,5,False,False,True,3,True,True,False,False,,False,
+Q10_3b_F1_G2,Q10,3b,how-to,True,F1,G2,497,3,False,False,True,0,False,,False,False,,False,
+Q10_3b_F2_G0,Q10,3b,how-to,True,F2,G0,1452,6,True,True,True,0,False,,False,False,,False,
+Q10_3b_F2_G1,Q10,3b,how-to,True,F2,G1,2342,15,True,True,True,5,True,True,False,True,,False,
+Q10_3b_F2_G2,Q10,3b,how-to,True,F2,G2,1154,5,True,True,True,0,False,,False,False,,False,
+Q10_8b_F0_G0,Q10,8b,how-to,True,F0,G0,1609,1,True,True,,1,True,True,False,False,,False,
+Q10_8b_F0_G1,Q10,8b,how-to,True,F0,G1,1462,10,True,False,,3,True,True,False,False,,False,
+Q10_8b_F0_G2,Q10,8b,how-to,True,F0,G2,909,6,False,True,,2,True,True,False,False,,False,
+Q10_8b_F1_G0,Q10,8b,how-to,True,F1,G0,707,5,False,False,True,0,False,,False,False,,False,
+Q10_8b_F1_G1,Q10,8b,how-to,True,F1,G1,852,6,False,False,False,3,True,True,False,False,,False,
+Q10_8b_F1_G2,Q10,8b,how-to,True,F1,G2,799,5,False,False,True,0,False,,False,False,,False,
+Q10_8b_F2_G0,Q10,8b,how-to,True,F2,G0,1607,11,True,False,True,0,False,,False,False,,False,
+Q10_8b_F2_G1,Q10,8b,how-to,True,F2,G1,1128,5,True,True,True,3,True,True,False,False,,False,
+Q10_8b_F2_G2,Q10,8b,how-to,True,F2,G2,1709,5,True,True,True,2,True,True,False,True,,False,
+Q11_3b_F0_G0,Q11,3b,troubleshooting,True,F0,G0,1569,4,True,True,,0,False,,False,False,,False,
+Q11_3b_F0_G1,Q11,3b,troubleshooting,True,F0,G1,741,3,False,False,,1,True,True,False,False,,False,
+Q11_3b_F0_G2,Q11,3b,troubleshooting,True,F0,G2,626,3,False,False,,1,True,True,False,False,,False,
+Q11_3b_F1_G0,Q11,3b,troubleshooting,True,F1,G0,539,3,False,False,True,0,False,,False,False,,False,
+Q11_3b_F1_G1,Q11,3b,troubleshooting,True,F1,G1,700,4,False,False,True,2,True,True,False,False,,False,
+Q11_3b_F1_G2,Q11,3b,troubleshooting,True,F1,G2,388,3,False,False,True,0,False,,False,False,,False,
+Q11_3b_F2_G0,Q11,3b,troubleshooting,True,F2,G0,1624,11,True,False,True,0,False,,False,False,,False,
+Q11_3b_F2_G1,Q11,3b,troubleshooting,True,F2,G1,1123,6,True,False,True,4,True,True,False,True,,False,
+Q11_3b_F2_G2,Q11,3b,troubleshooting,True,F2,G2,1655,10,True,True,True,2,True,True,False,True,,False,
+Q11_8b_F0_G0,Q11,8b,troubleshooting,True,F0,G0,1538,5,True,True,,2,True,True,False,False,,False,
+Q11_8b_F0_G1,Q11,8b,troubleshooting,True,F0,G1,675,5,False,False,,1,True,True,False,False,,False,
+Q11_8b_F0_G2,Q11,8b,troubleshooting,True,F0,G2,658,4,False,False,,2,True,True,False,False,,False,
+Q11_8b_F1_G0,Q11,8b,troubleshooting,True,F1,G0,607,4,False,False,True,2,True,True,False,False,,False,
+Q11_8b_F1_G1,Q11,8b,troubleshooting,True,F1,G1,788,5,False,False,True,2,True,True,False,False,,False,
+Q11_8b_F1_G2,Q11,8b,troubleshooting,True,F1,G2,661,5,False,False,True,1,True,True,False,False,,False,
+Q11_8b_F2_G0,Q11,8b,troubleshooting,True,F2,G0,1672,5,True,False,True,6,True,True,False,False,,False,
+Q11_8b_F2_G1,Q11,8b,troubleshooting,True,F2,G1,1370,9,True,False,True,4,True,True,False,False,,False,
+Q11_8b_F2_G2,Q11,8b,troubleshooting,True,F2,G2,1091,6,True,False,True,3,True,True,False,False,,False,
+Q12_3b_F0_G0,Q12,3b,troubleshooting,True,F0,G0,1330,4,True,False,,2,True,True,False,False,,False,
+Q12_3b_F0_G1,Q12,3b,troubleshooting,True,F0,G1,915,4,True,False,,2,True,True,False,False,,False,
+Q12_3b_F0_G2,Q12,3b,troubleshooting,True,F0,G2,662,2,False,False,,2,True,True,False,False,,False,
+Q12_3b_F1_G0,Q12,3b,troubleshooting,True,F1,G0,804,4,False,False,True,0,False,,False,False,,False,
+Q12_3b_F1_G1,Q12,3b,troubleshooting,True,F1,G1,797,4,False,False,True,2,True,True,False,False,,False,
+Q12_3b_F1_G2,Q12,3b,troubleshooting,True,F1,G2,626,3,False,False,True,0,False,,False,False,,False,
+Q12_3b_F2_G0,Q12,3b,troubleshooting,True,F2,G0,2211,8,True,False,True,3,True,True,False,False,,False,
+Q12_3b_F2_G1,Q12,3b,troubleshooting,True,F2,G1,1985,5,True,True,True,7,True,True,False,False,,False,
+Q12_3b_F2_G2,Q12,3b,troubleshooting,True,F2,G2,812,6,True,False,True,3,True,True,True,True,,True,
+Q12_8b_F0_G0,Q12,8b,troubleshooting,True,F0,G0,1636,7,True,True,,5,True,True,False,False,,False,
+Q12_8b_F0_G1,Q12,8b,troubleshooting,True,F0,G1,861,5,True,False,,3,True,True,False,False,,False,
+Q12_8b_F0_G2,Q12,8b,troubleshooting,True,F0,G2,929,4,True,False,,4,True,True,False,False,,False,
+Q12_8b_F1_G0,Q12,8b,troubleshooting,True,F1,G0,879,5,False,False,True,2,True,True,False,False,,False,
+Q12_8b_F1_G1,Q12,8b,troubleshooting,True,F1,G1,898,5,False,False,True,2,True,True,False,False,,False,
+Q12_8b_F1_G2,Q12,8b,troubleshooting,True,F1,G2,745,5,False,False,True,0,False,,False,False,,False,
+Q12_8b_F2_G0,Q12,8b,troubleshooting,True,F2,G0,2182,11,True,False,True,5,True,True,False,False,,False,
+Q12_8b_F2_G1,Q12,8b,troubleshooting,True,F2,G1,1454,6,True,False,True,4,True,True,False,False,,False,
+Q12_8b_F2_G2,Q12,8b,troubleshooting,True,F2,G2,1340,4,True,False,True,3,True,True,False,False,,False,
+Q13_3b_F0_G0,Q13,3b,troubleshooting,True,F0,G0,1911,4,True,True,,0,False,,False,True,,False,
+Q13_3b_F0_G1,Q13,3b,troubleshooting,True,F0,G1,1974,6,True,True,,3,True,True,False,False,,False,
+Q13_3b_F0_G2,Q13,3b,troubleshooting,True,F0,G2,1244,6,True,True,,0,False,,False,False,,False,
+Q13_3b_F1_G0,Q13,3b,troubleshooting,True,F1,G0,808,4,False,False,True,0,False,,False,False,,False,
+Q13_3b_F1_G1,Q13,3b,troubleshooting,True,F1,G1,774,4,False,False,True,2,True,True,False,False,,False,
+Q13_3b_F1_G2,Q13,3b,troubleshooting,True,F1,G2,602,3,False,False,True,0,False,,False,False,,False,
+Q13_3b_F2_G0,Q13,3b,troubleshooting,True,F2,G0,4238,7,True,True,True,0,False,,False,False,,False,
+Q13_3b_F2_G1,Q13,3b,troubleshooting,True,F2,G1,2164,11,True,False,True,5,True,True,False,False,,False,
+Q13_3b_F2_G2,Q13,3b,troubleshooting,True,F2,G2,1509,9,True,False,True,0,False,,False,False,,False,
+Q13_8b_F0_G0,Q13,8b,troubleshooting,True,F0,G0,3579,12,True,True,,3,True,True,False,False,,False,
+Q13_8b_F0_G1,Q13,8b,troubleshooting,True,F0,G1,2843,11,True,True,,10,True,True,False,False,,False,
+Q13_8b_F0_G2,Q13,8b,troubleshooting,True,F0,G2,1979,8,True,True,,0,False,,False,False,,False,
+Q13_8b_F1_G0,Q13,8b,troubleshooting,True,F1,G0,1077,5,False,False,True,0,False,,False,True,,False,
+Q13_8b_F1_G1,Q13,8b,troubleshooting,True,F1,G1,1066,6,False,False,False,4,True,True,False,False,,False,
+Q13_8b_F1_G2,Q13,8b,troubleshooting,True,F1,G2,925,5,False,False,True,0,False,,False,False,,False,
+Q13_8b_F2_G0,Q13,8b,troubleshooting,True,F2,G0,3520,12,True,True,True,0,False,,False,False,,False,
+Q13_8b_F2_G1,Q13,8b,troubleshooting,True,F2,G1,2612,8,True,True,False,7,True,True,False,False,,False,
+Q13_8b_F2_G2,Q13,8b,troubleshooting,True,F2,G2,3110,11,True,True,True,1,True,True,False,False,,False,
+Q14_3b_F0_G0,Q14,3b,troubleshooting,True,F0,G0,2205,5,True,True,,3,True,True,False,False,,False,
+Q14_3b_F0_G1,Q14,3b,troubleshooting,True,F0,G1,856,3,True,False,,2,True,True,False,False,,False,
+Q14_3b_F0_G2,Q14,3b,troubleshooting,True,F0,G2,1181,5,True,False,,0,False,,False,False,,False,
+Q14_3b_F1_G0,Q14,3b,troubleshooting,True,F1,G0,619,3,False,False,True,0,False,,False,False,,False,
+Q14_3b_F1_G1,Q14,3b,troubleshooting,True,F1,G1,609,3,False,False,True,3,True,True,False,False,,False,
+Q14_3b_F1_G2,Q14,3b,troubleshooting,True,F1,G2,518,3,False,False,True,0,False,,False,False,,False,
+Q14_3b_F2_G0,Q14,3b,troubleshooting,True,F2,G0,2763,6,True,True,True,0,False,,False,False,,False,
+Q14_3b_F2_G1,Q14,3b,troubleshooting,True,F2,G1,2348,11,True,True,True,5,True,True,False,False,,False,
+Q14_3b_F2_G2,Q14,3b,troubleshooting,True,F2,G2,1430,3,True,False,True,6,True,True,False,False,,False,
+Q14_8b_F0_G0,Q14,8b,troubleshooting,True,F0,G0,2791,4,True,True,,7,True,True,False,False,,False,
+Q14_8b_F0_G1,Q14,8b,troubleshooting,True,F0,G1,1396,5,True,True,,7,True,True,False,False,,False,
+Q14_8b_F0_G2,Q14,8b,troubleshooting,True,F0,G2,1616,4,True,True,,2,True,True,False,False,,False,
+Q14_8b_F1_G0,Q14,8b,troubleshooting,True,F1,G0,843,4,False,False,True,0,False,,False,False,,False,
+Q14_8b_F1_G1,Q14,8b,troubleshooting,True,F1,G1,975,5,False,False,True,5,True,True,False,False,,False,
+Q14_8b_F1_G2,Q14,8b,troubleshooting,True,F1,G2,744,5,False,False,True,0,False,,False,False,,False,
+Q14_8b_F2_G0,Q14,8b,troubleshooting,True,F2,G0,4210,10,True,True,True,0,False,,False,False,,False,
+Q14_8b_F2_G1,Q14,8b,troubleshooting,True,F2,G1,2730,9,True,True,True,6,True,True,False,False,,False,
+Q14_8b_F2_G2,Q14,8b,troubleshooting,True,F2,G2,1568,2,True,True,True,5,True,True,False,False,,False,
+Q15_3b_F0_G0,Q15,3b,troubleshooting,True,F0,G0,1901,9,True,True,,1,True,True,False,False,,False,
+Q15_3b_F0_G1,Q15,3b,troubleshooting,True,F0,G1,1599,8,True,True,,4,True,True,False,True,,False,
+Q15_3b_F0_G2,Q15,3b,troubleshooting,True,F0,G2,407,2,False,True,,1,True,True,False,False,,False,
+Q15_3b_F1_G0,Q15,3b,troubleshooting,True,F1,G0,699,4,False,False,True,0,False,,False,False,,False,
+Q15_3b_F1_G1,Q15,3b,troubleshooting,True,F1,G1,649,4,False,False,True,2,True,True,False,False,,False,
+Q15_3b_F1_G2,Q15,3b,troubleshooting,True,F1,G2,490,3,False,False,True,0,False,,False,False,,False,
+Q15_3b_F2_G0,Q15,3b,troubleshooting,True,F2,G0,1797,10,True,False,True,0,False,,False,False,,False,
+Q15_3b_F2_G1,Q15,3b,troubleshooting,True,F2,G1,1072,5,True,False,True,4,True,True,False,False,,False,
+Q15_3b_F2_G2,Q15,3b,troubleshooting,True,F2,G2,1584,8,True,False,True,4,True,True,False,False,,False,
+Q15_8b_F0_G0,Q15,8b,troubleshooting,True,F0,G0,1376,3,True,True,,5,True,True,False,False,,False,
+Q15_8b_F0_G1,Q15,8b,troubleshooting,True,F0,G1,1391,8,True,False,,6,True,True,False,False,,False,
+Q15_8b_F0_G2,Q15,8b,troubleshooting,True,F0,G2,617,4,False,False,,2,True,True,False,False,,False,
+Q15_8b_F1_G0,Q15,8b,troubleshooting,True,F1,G0,757,5,False,False,True,0,False,,False,False,,False,
+Q15_8b_F1_G1,Q15,8b,troubleshooting,True,F1,G1,705,5,False,False,True,2,True,True,False,False,,False,
+Q15_8b_F1_G2,Q15,8b,troubleshooting,True,F1,G2,681,5,False,False,True,0,False,,False,False,,False,
+Q15_8b_F2_G0,Q15,8b,troubleshooting,True,F2,G0,3037,21,True,True,True,9,True,True,False,False,,False,
+Q15_8b_F2_G1,Q15,8b,troubleshooting,True,F2,G1,2412,14,True,True,True,7,True,True,False,False,,False,
+Q15_8b_F2_G2,Q15,8b,troubleshooting,True,F2,G2,1296,8,True,False,True,0,False,,False,True,,False,
+Q16_3b_F0_G0,Q16,3b,configuration,True,F0,G0,1326,8,True,False,,3,True,True,False,False,,False,
+Q16_3b_F0_G1,Q16,3b,configuration,True,F0,G1,1840,6,True,False,,8,True,True,False,False,,False,
+Q16_3b_F0_G2,Q16,3b,configuration,True,F0,G2,1250,7,True,False,,0,False,,False,True,,False,
+Q16_3b_F1_G0,Q16,3b,configuration,True,F1,G0,606,4,False,False,True,0,False,,False,False,,False,
+Q16_3b_F1_G1,Q16,3b,configuration,True,F1,G1,637,5,False,False,True,3,True,True,False,False,,False,
+Q16_3b_F1_G2,Q16,3b,configuration,True,F1,G2,571,4,False,False,True,0,False,,False,False,,False,
+Q16_3b_F2_G0,Q16,3b,configuration,True,F2,G0,1579,6,True,False,True,0,False,,False,False,,False,
+Q16_3b_F2_G1,Q16,3b,configuration,True,F2,G1,1202,5,True,False,True,6,True,True,False,False,,False,
+Q16_3b_F2_G2,Q16,3b,configuration,True,F2,G2,1326,9,True,False,True,0,False,,True,True,,True,
+Q16_8b_F0_G0,Q16,8b,configuration,True,F0,G0,2945,5,True,True,,4,True,True,False,False,,False,
+Q16_8b_F0_G1,Q16,8b,configuration,True,F0,G1,1742,6,True,False,,7,True,True,False,False,,False,
+Q16_8b_F0_G2,Q16,8b,configuration,True,F0,G2,1705,5,True,True,,2,True,True,False,False,,False,
+Q16_8b_F1_G0,Q16,8b,configuration,True,F1,G0,706,5,False,False,True,0,False,,False,False,,False,
+Q16_8b_F1_G1,Q16,8b,configuration,True,F1,G1,782,5,False,False,True,5,True,True,False,False,,False,
+Q16_8b_F1_G2,Q16,8b,configuration,True,F1,G2,708,5,False,False,True,0,False,,False,False,,False,
+Q16_8b_F2_G0,Q16,8b,configuration,True,F2,G0,3550,8,True,True,True,0,False,,False,False,,False,
+Q16_8b_F2_G1,Q16,8b,configuration,True,F2,G1,1453,7,True,False,True,6,True,True,False,False,,False,
+Q16_8b_F2_G2,Q16,8b,configuration,True,F2,G2,2193,14,True,True,True,0,False,,False,False,,False,
+Q17_3b_F0_G0,Q17,3b,configuration,True,F0,G0,493,3,False,False,,1,True,True,False,False,,False,
+Q17_3b_F0_G1,Q17,3b,configuration,True,F0,G1,195,1,False,False,,1,True,True,False,False,,False,
+Q17_3b_F0_G2,Q17,3b,configuration,True,F0,G2,364,1,False,False,,0,False,,False,False,,False,
+Q17_3b_F1_G0,Q17,3b,configuration,True,F1,G0,666,4,False,False,True,0,False,,False,False,,False,
+Q17_3b_F1_G1,Q17,3b,configuration,True,F1,G1,545,3,False,False,True,1,True,True,False,False,,False,
+Q17_3b_F1_G2,Q17,3b,configuration,True,F1,G2,485,3,False,False,True,0,False,,False,False,,False,
+Q17_3b_F2_G0,Q17,3b,configuration,True,F2,G0,1413,6,True,False,True,2,True,True,False,False,,False,
+Q17_3b_F2_G1,Q17,3b,configuration,True,F2,G1,434,6,True,False,True,1,True,True,False,False,,False,
+Q17_3b_F2_G2,Q17,3b,configuration,True,F2,G2,286,3,True,False,True,0,False,,False,False,,False,
+Q17_8b_F0_G0,Q17,8b,configuration,True,F0,G0,774,3,True,False,,2,True,True,False,False,,False,
+Q17_8b_F0_G1,Q17,8b,configuration,True,F0,G1,323,2,False,False,,1,True,True,False,False,,False,
+Q17_8b_F0_G2,Q17,8b,configuration,True,F0,G2,400,2,False,False,,1,True,True,False,False,,False,
+Q17_8b_F1_G0,Q17,8b,configuration,True,F1,G0,791,5,False,False,True,0,False,,False,False,,False,
+Q17_8b_F1_G1,Q17,8b,configuration,True,F1,G1,668,4,False,False,True,1,True,True,False,False,,False,
+Q17_8b_F1_G2,Q17,8b,configuration,True,F1,G2,631,4,False,False,True,0,False,,False,False,,False,
+Q17_8b_F2_G0,Q17,8b,configuration,True,F2,G0,1473,6,True,False,True,7,True,True,False,False,,False,
+Q17_8b_F2_G1,Q17,8b,configuration,True,F2,G1,566,2,True,False,True,3,True,True,False,False,,False,
+Q17_8b_F2_G2,Q17,8b,configuration,True,F2,G2,826,5,True,False,True,7,True,True,False,False,,False,
+Q18_3b_F0_G0,Q18,3b,configuration,True,F0,G0,420,1,False,False,,1,True,True,False,False,,False,
+Q18_3b_F0_G1,Q18,3b,configuration,True,F0,G1,479,2,False,False,,1,True,True,False,False,,False,
+Q18_3b_F0_G2,Q18,3b,configuration,True,F0,G2,338,1,False,False,,0,False,,False,False,,False,
+Q18_3b_F1_G0,Q18,3b,configuration,True,F1,G0,615,4,False,False,True,0,False,,False,False,,False,
+Q18_3b_F1_G1,Q18,3b,configuration,True,F1,G1,587,3,False,False,True,1,True,True,False,False,,False,
+Q18_3b_F1_G2,Q18,3b,configuration,True,F1,G2,528,3,False,False,True,0,False,,False,False,,False,
+Q18_3b_F2_G0,Q18,3b,configuration,True,F2,G0,591,2,True,False,True,0,False,,False,False,,False,
+Q18_3b_F2_G1,Q18,3b,configuration,True,F2,G1,472,1,True,False,True,1,True,True,False,False,,False,
+Q18_3b_F2_G2,Q18,3b,configuration,True,F2,G2,408,2,True,False,True,0,False,,False,False,,False,
+Q18_8b_F0_G0,Q18,8b,configuration,True,F0,G0,798,3,True,False,,1,True,True,False,False,,False,
+Q18_8b_F0_G1,Q18,8b,configuration,True,F0,G1,314,1,False,False,,1,True,True,False,False,,False,
+Q18_8b_F0_G2,Q18,8b,configuration,True,F0,G2,373,2,False,False,,1,True,True,False,False,,False,
+Q18_8b_F1_G0,Q18,8b,configuration,True,F1,G0,770,4,False,False,True,0,False,,False,False,,False,
+Q18_8b_F1_G1,Q18,8b,configuration,True,F1,G1,652,4,False,False,True,1,True,True,False,False,,False,
+Q18_8b_F1_G2,Q18,8b,configuration,True,F1,G2,627,4,False,False,True,0,False,,False,False,,False,
+Q18_8b_F2_G0,Q18,8b,configuration,True,F2,G0,908,4,True,False,True,1,True,True,False,False,,False,
+Q18_8b_F2_G1,Q18,8b,configuration,True,F2,G1,569,2,True,False,True,2,True,True,False,False,,False,
+Q18_8b_F2_G2,Q18,8b,configuration,True,F2,G2,449,5,True,False,True,0,False,,False,False,,False,
+Q19_3b_F0_G0,Q19,3b,configuration,True,F0,G0,1124,6,True,True,,3,True,True,False,False,,False,
+Q19_3b_F0_G1,Q19,3b,configuration,True,F0,G1,833,6,True,False,,3,True,True,False,False,,False,
+Q19_3b_F0_G2,Q19,3b,configuration,True,F0,G2,365,2,False,False,,1,True,True,False,False,,False,
+Q19_3b_F1_G0,Q19,3b,configuration,True,F1,G0,526,4,False,False,True,0,False,,False,False,,False,
+Q19_3b_F1_G1,Q19,3b,configuration,True,F1,G1,500,4,False,False,True,3,True,True,False,False,,False,
+Q19_3b_F1_G2,Q19,3b,configuration,True,F1,G2,414,3,False,False,True,0,False,,True,True,,True,
+Q19_3b_F2_G0,Q19,3b,configuration,True,F2,G0,2292,13,True,True,True,0,False,,False,False,,False,
+Q19_3b_F2_G1,Q19,3b,configuration,True,F2,G1,2457,2,True,False,True,6,True,True,False,False,,False,
+Q19_3b_F2_G2,Q19,3b,configuration,True,F2,G2,1100,8,True,False,True,3,True,True,True,True,,True,
+Q19_8b_F0_G0,Q19,8b,configuration,True,F0,G0,1568,4,True,True,,3,True,True,False,False,,False,
+Q19_8b_F0_G1,Q19,8b,configuration,True,F0,G1,1169,3,True,True,,7,True,True,False,False,,False,
+Q19_8b_F0_G2,Q19,8b,configuration,True,F0,G2,539,3,False,True,,1,True,True,False,False,,False,
+Q19_8b_F1_G0,Q19,8b,configuration,True,F1,G0,826,5,False,False,True,0,False,,False,False,,False,
+Q19_8b_F1_G1,Q19,8b,configuration,True,F1,G1,806,5,False,False,True,5,True,True,False,False,,False,
+Q19_8b_F1_G2,Q19,8b,configuration,True,F1,G2,727,4,False,False,True,3,True,True,False,False,,False,
+Q19_8b_F2_G0,Q19,8b,configuration,True,F2,G0,3062,9,True,True,True,3,True,True,False,False,,False,
+Q19_8b_F2_G1,Q19,8b,configuration,True,F2,G1,1469,8,True,False,True,7,True,True,False,False,,False,
+Q19_8b_F2_G2,Q19,8b,configuration,True,F2,G2,1615,6,True,True,True,3,True,True,False,False,,False,
+Q20_3b_F0_G0,Q20,3b,configuration,True,F0,G0,713,2,True,False,,0,False,,False,False,,False,
+Q20_3b_F0_G1,Q20,3b,configuration,True,F0,G1,438,3,True,False,,1,True,True,False,False,,False,
+Q20_3b_F0_G2,Q20,3b,configuration,True,F0,G2,363,1,True,False,,0,False,,False,False,,False,
+Q20_3b_F1_G0,Q20,3b,configuration,True,F1,G0,483,3,False,False,True,0,False,,False,False,,False,
+Q20_3b_F1_G1,Q20,3b,configuration,True,F1,G1,496,3,False,False,True,2,True,True,False,False,,False,
+Q20_3b_F1_G2,Q20,3b,configuration,True,F1,G2,480,3,False,False,True,0,False,,False,False,,False,
+Q20_3b_F2_G0,Q20,3b,configuration,True,F2,G0,1214,2,True,True,True,5,True,True,False,False,,False,
+Q20_3b_F2_G1,Q20,3b,configuration,True,F2,G1,380,4,True,False,True,3,True,True,False,False,,False,
+Q20_3b_F2_G2,Q20,3b,configuration,True,F2,G2,487,3,True,False,True,0,False,,False,False,,False,
+Q20_8b_F0_G0,Q20,8b,configuration,True,F0,G0,1133,6,True,True,,3,True,True,False,False,,False,
+Q20_8b_F0_G1,Q20,8b,configuration,True,F0,G1,520,3,True,False,,5,True,True,False,False,,False,
+Q20_8b_F0_G2,Q20,8b,configuration,True,F0,G2,278,2,True,False,,1,True,True,False,False,,False,
+Q20_8b_F1_G0,Q20,8b,configuration,True,F1,G0,717,5,False,False,True,0,False,,False,False,,False,
+Q20_8b_F1_G1,Q20,8b,configuration,True,F1,G1,578,4,False,False,True,4,True,True,False,False,,False,
+Q20_8b_F1_G2,Q20,8b,configuration,True,F1,G2,780,5,False,False,True,0,False,,False,False,,False,
+Q20_8b_F2_G0,Q20,8b,configuration,True,F2,G0,1203,7,True,True,True,7,True,True,False,False,,False,
+Q20_8b_F2_G1,Q20,8b,configuration,True,F2,G1,389,1,True,False,True,3,True,True,False,False,,False,
+Q20_8b_F2_G2,Q20,8b,configuration,True,F2,G2,671,1,True,True,True,5,True,True,False,False,,False,
+Q21_3b_F0_G0,Q21,3b,api usage,True,F0,G0,2381,7,True,True,,0,False,,False,False,,False,
+Q21_3b_F0_G1,Q21,3b,api usage,True,F0,G1,1640,1,True,True,,8,True,True,False,False,,False,
+Q21_3b_F0_G2,Q21,3b,api usage,True,F0,G2,1165,5,True,True,,0,False,,False,False,,False,
+Q21_3b_F1_G0,Q21,3b,api usage,True,F1,G0,719,4,False,False,True,0,False,,False,False,,False,
+Q21_3b_F1_G1,Q21,3b,api usage,True,F1,G1,710,4,False,False,True,2,True,True,False,False,,False,
+Q21_3b_F1_G2,Q21,3b,api usage,True,F1,G2,699,4,False,False,True,0,False,,False,False,,False,
+Q21_3b_F2_G0,Q21,3b,api usage,True,F2,G0,2245,7,True,True,True,0,False,,False,False,,False,
+Q21_3b_F2_G1,Q21,3b,api usage,True,F2,G1,1385,8,True,False,True,7,True,True,False,False,,False,
+Q21_3b_F2_G2,Q21,3b,api usage,True,F2,G2,994,6,True,False,True,0,False,,False,False,,False,
+Q21_8b_F0_G0,Q21,8b,api usage,True,F0,G0,2370,6,True,True,,4,True,True,False,False,,False,
+Q21_8b_F0_G1,Q21,8b,api usage,True,F0,G1,1188,8,True,False,,5,True,True,False,False,,False,
+Q21_8b_F0_G2,Q21,8b,api usage,True,F0,G2,1699,7,True,True,,0,False,,False,False,,False,
+Q21_8b_F1_G0,Q21,8b,api usage,True,F1,G0,946,5,False,False,True,0,False,,False,False,,False,
+Q21_8b_F1_G1,Q21,8b,api usage,True,F1,G1,763,5,False,False,True,3,True,True,False,False,,False,
+Q21_8b_F1_G2,Q21,8b,api usage,True,F1,G2,751,5,False,False,True,0,False,,False,False,,False,
+Q21_8b_F2_G0,Q21,8b,api usage,True,F2,G0,2484,8,True,True,True,0,False,,False,False,,False,
+Q21_8b_F2_G1,Q21,8b,api usage,True,F2,G1,1537,7,True,True,True,7,True,True,False,False,,False,
+Q21_8b_F2_G2,Q21,8b,api usage,True,F2,G2,1476,4,True,True,True,1,True,True,False,False,,False,
+Q22_3b_F0_G0,Q22,3b,api usage,True,F0,G0,1823,4,True,True,,0,False,,False,False,,False,
+Q22_3b_F0_G1,Q22,3b,api usage,True,F0,G1,1130,2,True,False,,3,True,True,False,False,,False,
+Q22_3b_F0_G2,Q22,3b,api usage,True,F0,G2,1395,2,True,True,,0,False,,False,False,,False,
+Q22_3b_F1_G0,Q22,3b,api usage,True,F1,G0,700,4,False,False,True,0,False,,False,False,,False,
+Q22_3b_F1_G1,Q22,3b,api usage,True,F1,G1,650,4,False,False,True,3,True,True,False,False,,False,
+Q22_3b_F1_G2,Q22,3b,api usage,True,F1,G2,548,4,False,False,True,0,False,,False,False,,False,
+Q22_3b_F2_G0,Q22,3b,api usage,True,F2,G0,2170,3,True,True,False,0,False,,False,False,,False,
+Q22_3b_F2_G1,Q22,3b,api usage,True,F2,G1,1762,5,True,True,True,6,True,True,False,False,,False,
+Q22_3b_F2_G2,Q22,3b,api usage,True,F2,G2,1430,6,True,True,True,0,False,,False,True,,False,
+Q22_8b_F0_G0,Q22,8b,api usage,True,F0,G0,2227,5,True,True,,0,False,,False,False,,False,
+Q22_8b_F0_G1,Q22,8b,api usage,True,F0,G1,2003,5,True,True,,8,True,True,False,False,,False,
+Q22_8b_F0_G2,Q22,8b,api usage,True,F0,G2,1484,2,True,True,,0,False,,False,False,,False,
+Q22_8b_F1_G0,Q22,8b,api usage,True,F1,G0,919,5,False,False,True,0,False,,False,False,,False,
+Q22_8b_F1_G1,Q22,8b,api usage,True,F1,G1,879,5,False,False,True,4,True,True,False,False,,False,
+Q22_8b_F1_G2,Q22,8b,api usage,True,F1,G2,781,5,False,False,True,0,False,,False,False,,False,
+Q22_8b_F2_G0,Q22,8b,api usage,True,F2,G0,2033,3,True,True,True,2,True,True,False,False,,False,
+Q22_8b_F2_G1,Q22,8b,api usage,True,F2,G1,1569,10,True,False,True,4,True,True,False,False,,False,
+Q22_8b_F2_G2,Q22,8b,api usage,True,F2,G2,1295,7,True,False,True,2,True,True,False,False,,False,
+Q23_3b_F0_G0,Q23,3b,api usage,True,F0,G0,2116,6,True,True,,0,False,,False,False,,False,
+Q23_3b_F0_G1,Q23,3b,api usage,True,F0,G1,2121,17,True,True,,8,True,True,False,False,,False,
+Q23_3b_F0_G2,Q23,3b,api usage,True,F0,G2,1026,4,True,False,,2,True,True,False,False,,False,
+Q23_3b_F1_G0,Q23,3b,api usage,True,F1,G0,691,4,False,False,True,0,False,,False,False,,False,
+Q23_3b_F1_G1,Q23,3b,api usage,True,F1,G1,755,3,False,False,True,4,True,True,False,False,,False,
+Q23_3b_F1_G2,Q23,3b,api usage,True,F1,G2,539,2,False,False,False,0,False,,False,False,,False,
+Q23_3b_F2_G0,Q23,3b,api usage,True,F2,G0,2437,5,True,True,True,0,False,,False,False,,False,
+Q23_3b_F2_G1,Q23,3b,api usage,True,F2,G1,2029,5,True,True,True,7,True,True,False,False,,False,
+Q23_3b_F2_G2,Q23,3b,api usage,True,F2,G2,1896,6,True,True,True,0,False,,False,False,,False,
+Q23_8b_F0_G0,Q23,8b,api usage,True,F0,G0,4021,15,True,True,,0,False,,False,False,,False,
+Q23_8b_F0_G1,Q23,8b,api usage,True,F0,G1,3192,12,True,True,,18,True,True,False,False,,False,
+Q23_8b_F0_G2,Q23,8b,api usage,True,F0,G2,3544,10,True,True,,6,True,True,False,False,,False,
+Q23_8b_F1_G0,Q23,8b,api usage,True,F1,G0,885,6,False,False,False,0,False,,False,False,,False,
+Q23_8b_F1_G1,Q23,8b,api usage,True,F1,G1,745,4,False,False,True,3,True,True,False,False,,False,
+Q23_8b_F1_G2,Q23,8b,api usage,True,F1,G2,787,5,False,False,True,0,False,,False,False,,False,
+Q23_8b_F2_G0,Q23,8b,api usage,True,F2,G0,3620,10,True,True,True,1,True,True,False,False,,False,
+Q23_8b_F2_G1,Q23,8b,api usage,True,F2,G1,2023,11,True,True,True,8,True,True,False,False,,False,
+Q23_8b_F2_G2,Q23,8b,api usage,True,F2,G2,1618,6,True,False,True,0,False,,False,False,,False,
+Q24_3b_F0_G0,Q24,3b,api usage,True,F0,G0,1251,3,True,True,,2,True,True,False,False,,False,
+Q24_3b_F0_G1,Q24,3b,api usage,True,F0,G1,943,4,True,True,,1,True,True,False,False,,False,
+Q24_3b_F0_G2,Q24,3b,api usage,True,F0,G2,813,6,False,True,,1,True,True,False,False,,False,
+Q24_3b_F1_G0,Q24,3b,api usage,True,F1,G0,802,4,False,False,True,0,False,,False,False,,False,
+Q24_3b_F1_G1,Q24,3b,api usage,True,F1,G1,792,5,False,False,True,3,True,True,False,False,,False,
+Q24_3b_F1_G2,Q24,3b,api usage,True,F1,G2,519,4,False,False,True,0,False,,False,False,,False,
+Q24_3b_F2_G0,Q24,3b,api usage,True,F2,G0,1987,7,True,True,True,2,True,True,False,False,,False,
+Q24_3b_F2_G1,Q24,3b,api usage,True,F2,G1,2059,11,True,True,True,8,True,True,False,True,,False,
+Q24_3b_F2_G2,Q24,3b,api usage,True,F2,G2,1383,10,True,True,True,0,False,,False,True,,False,
+Q24_8b_F0_G0,Q24,8b,api usage,True,F0,G0,1689,4,True,True,,2,True,True,False,False,,False,
+Q24_8b_F0_G1,Q24,8b,api usage,True,F0,G1,1393,3,True,True,,3,True,True,False,False,,False,
+Q24_8b_F0_G2,Q24,8b,api usage,True,F0,G2,909,3,True,True,,1,True,True,False,False,,False,
+Q24_8b_F1_G0,Q24,8b,api usage,True,F1,G0,809,5,False,False,True,1,True,True,False,False,,False,
+Q24_8b_F1_G1,Q24,8b,api usage,True,F1,G1,868,6,False,False,False,3,True,True,False,False,,False,
+Q24_8b_F1_G2,Q24,8b,api usage,True,F1,G2,744,5,False,False,True,0,False,,False,False,,False,
+Q24_8b_F2_G0,Q24,8b,api usage,True,F2,G0,1671,6,True,True,True,1,True,True,False,True,,False,
+Q24_8b_F2_G1,Q24,8b,api usage,True,F2,G1,1561,9,True,True,True,8,True,True,False,True,,False,
+Q24_8b_F2_G2,Q24,8b,api usage,True,F2,G2,1426,5,True,True,True,5,True,True,False,False,,False,
+Q25_3b_F0_G0,Q25,3b,api usage,True,F0,G0,1823,6,True,True,,1,True,True,False,False,,False,
+Q25_3b_F0_G1,Q25,3b,api usage,True,F0,G1,895,5,True,True,,2,True,True,False,False,,False,
+Q25_3b_F0_G2,Q25,3b,api usage,True,F0,G2,660,4,False,False,,0,False,,False,False,,False,
+Q25_3b_F1_G0,Q25,3b,api usage,True,F1,G0,742,5,False,False,True,0,False,,False,False,,False,
+Q25_3b_F1_G1,Q25,3b,api usage,True,F1,G1,626,4,False,False,True,2,True,True,False,False,,False,
+Q25_3b_F1_G2,Q25,3b,api usage,True,F1,G2,618,4,False,False,True,0,False,,False,False,,False,
+Q25_3b_F2_G0,Q25,3b,api usage,True,F2,G0,1447,5,True,True,True,0,False,,False,False,,False,
+Q25_3b_F2_G1,Q25,3b,api usage,True,F2,G1,1021,1,True,False,True,4,True,True,False,False,,False,
+Q25_3b_F2_G2,Q25,3b,api usage,True,F2,G2,848,4,True,False,True,0,False,,False,False,,False,
+Q25_8b_F0_G0,Q25,8b,api usage,True,F0,G0,2895,6,True,True,,3,True,True,False,False,,False,
+Q25_8b_F0_G1,Q25,8b,api usage,True,F0,G1,1670,9,True,True,,6,True,True,False,False,,False,
+Q25_8b_F0_G2,Q25,8b,api usage,True,F0,G2,925,3,True,True,,1,True,True,False,False,,False,
+Q25_8b_F1_G0,Q25,8b,api usage,True,F1,G0,710,5,False,False,True,0,False,,False,False,,False,
+Q25_8b_F1_G1,Q25,8b,api usage,True,F1,G1,676,5,False,False,True,1,True,True,False,False,,False,
+Q25_8b_F1_G2,Q25,8b,api usage,True,F1,G2,663,5,False,False,True,0,False,,False,False,,False,
+Q25_8b_F2_G0,Q25,8b,api usage,True,F2,G0,2498,10,True,True,True,1,True,True,False,False,,False,
+Q25_8b_F2_G1,Q25,8b,api usage,True,F2,G1,1603,12,True,True,True,7,True,True,False,False,,False,
+Q25_8b_F2_G2,Q25,8b,api usage,True,F2,G2,1403,4,True,True,True,0,False,,False,False,,False,
+U01_3b_F0_G0,U01,3b,definition,False,F0,G0,841,5,False,True,,0,False,,False,True,False,,True
+U01_3b_F0_G1,U01,3b,definition,False,F0,G1,927,5,True,False,,0,False,,False,True,False,,True
+U01_3b_F0_G2,U01,3b,definition,False,F0,G2,57,1,False,False,,0,False,,True,True,True,,True
+U01_3b_F1_G0,U01,3b,definition,False,F1,G0,732,4,False,False,True,0,False,,False,False,False,,False
+U01_3b_F1_G1,U01,3b,definition,False,F1,G1,655,4,False,False,True,1,True,True,False,False,False,,False
+U01_3b_F1_G2,U01,3b,definition,False,F1,G2,417,3,False,False,True,0,False,,True,True,True,,True
+U01_3b_F2_G0,U01,3b,definition,False,F2,G0,2123,6,True,True,True,2,True,True,False,True,False,,True
+U01_3b_F2_G1,U01,3b,definition,False,F2,G1,2190,6,True,True,True,5,True,True,False,True,False,,True
+U01_3b_F2_G2,U01,3b,definition,False,F2,G2,137,2,False,False,False,0,False,,True,True,True,,True
+U01_8b_F0_G0,U01,8b,definition,False,F0,G0,1684,5,True,True,,0,False,,False,True,False,,True
+U01_8b_F0_G1,U01,8b,definition,False,F0,G1,1086,3,True,False,,0,False,,False,True,False,,True
+U01_8b_F0_G2,U01,8b,definition,False,F0,G2,233,2,False,False,,0,False,,True,True,True,,True
+U01_8b_F1_G0,U01,8b,definition,False,F1,G0,892,5,False,False,True,0,False,,False,False,False,,False
+U01_8b_F1_G1,U01,8b,definition,False,F1,G1,771,5,False,False,True,2,True,True,False,False,False,,False
+U01_8b_F1_G2,U01,8b,definition,False,F1,G2,57,1,False,False,False,0,False,,True,True,True,,True
+U01_8b_F2_G0,U01,8b,definition,False,F2,G0,1565,7,True,True,True,0,False,,False,True,False,,True
+U01_8b_F2_G1,U01,8b,definition,False,F2,G1,1565,6,True,True,False,3,True,True,False,True,False,,True
+U01_8b_F2_G2,U01,8b,definition,False,F2,G2,436,10,True,False,True,0,False,,True,True,True,,True
+U02_3b_F0_G0,U02,3b,definition,False,F0,G0,1590,5,True,True,,1,True,True,False,True,False,,True
+U02_3b_F0_G1,U02,3b,definition,False,F0,G1,813,6,False,False,,1,True,True,False,False,False,,False
+U02_3b_F0_G2,U02,3b,definition,False,F0,G2,57,1,False,False,,0,False,,True,True,True,,True
+U02_3b_F1_G0,U02,3b,definition,False,F1,G0,799,4,False,False,True,0,False,,False,False,False,,False
+U02_3b_F1_G1,U02,3b,definition,False,F1,G1,665,3,False,False,True,1,True,True,False,True,False,,True
+U02_3b_F1_G2,U02,3b,definition,False,F1,G2,407,3,False,False,True,0,False,,True,True,True,,True
+U02_3b_F2_G0,U02,3b,definition,False,F2,G0,2436,7,True,True,True,0,False,,False,True,False,,True
+U02_3b_F2_G1,U02,3b,definition,False,F2,G1,1251,9,True,True,True,2,True,True,False,True,False,,True
+U02_3b_F2_G2,U02,3b,definition,False,F2,G2,416,3,False,False,False,0,False,,True,True,True,,True
+U02_8b_F0_G0,U02,8b,definition,False,F0,G0,1982,7,True,True,,2,True,True,False,True,False,,True
+U02_8b_F0_G1,U02,8b,definition,False,F0,G1,1162,5,True,False,,2,True,True,False,True,False,,True
+U02_8b_F0_G2,U02,8b,definition,False,F0,G2,114,2,False,False,,0,False,,True,True,True,,True
+U02_8b_F1_G0,U02,8b,definition,False,F1,G0,858,5,False,False,True,0,False,,False,False,False,,False
+U02_8b_F1_G1,U02,8b,definition,False,F1,G1,790,5,False,False,True,1,True,True,False,False,False,,False
+U02_8b_F1_G2,U02,8b,definition,False,F1,G2,57,1,False,False,False,0,False,,True,True,True,,True
+U02_8b_F2_G0,U02,8b,definition,False,F2,G0,2216,7,True,True,True,11,True,True,False,True,False,,True
+U02_8b_F2_G1,U02,8b,definition,False,F2,G1,1608,5,True,True,True,4,True,True,False,True,False,,True
+U02_8b_F2_G2,U02,8b,definition,False,F2,G2,114,2,False,False,False,0,False,,True,True,True,,True
+U03_3b_F0_G0,U03,3b,how-to,False,F0,G0,3784,7,True,True,,0,False,,False,False,False,,False
+U03_3b_F0_G1,U03,3b,how-to,False,F0,G1,4326,11,True,True,,10,True,False,False,False,False,,False
+U03_3b_F0_G2,U03,3b,how-to,False,F0,G2,546,7,True,False,,0,False,,True,True,True,,True
+U03_3b_F1_G0,U03,3b,how-to,False,F1,G0,831,5,False,False,True,0,False,,False,False,False,,False
+U03_3b_F1_G1,U03,3b,how-to,False,F1,G1,776,5,False,False,True,1,True,True,False,False,False,,False
+U03_3b_F1_G2,U03,3b,how-to,False,F1,G2,443,3,False,False,True,0,False,,True,True,True,,True
+U03_3b_F2_G0,U03,3b,how-to,False,F2,G0,4326,11,True,True,False,0,False,,False,False,False,,False
+U03_3b_F2_G1,U03,3b,how-to,False,F2,G1,3023,9,True,True,True,2,True,True,False,False,False,,False
+U03_3b_F2_G2,U03,3b,how-to,False,F2,G2,563,7,True,False,True,0,False,,True,True,True,,True
+U03_8b_F0_G0,U03,8b,how-to,False,F0,G0,1711,5,True,True,,0,False,,False,False,False,,False
+U03_8b_F0_G1,U03,8b,how-to,False,F0,G1,1806,5,True,True,,4,True,True,False,False,False,,False
+U03_8b_F0_G2,U03,8b,how-to,False,F0,G2,490,3,False,False,,0,False,,True,True,True,,True
+U03_8b_F1_G0,U03,8b,how-to,False,F1,G0,724,5,False,False,True,1,True,True,False,False,False,,False
+U03_8b_F1_G1,U03,8b,how-to,False,F1,G1,820,5,False,False,True,1,True,True,False,False,False,,False
+U03_8b_F1_G2,U03,8b,how-to,False,F1,G2,430,3,False,False,True,0,False,,True,True,True,,True
+U03_8b_F2_G0,U03,8b,how-to,False,F2,G0,3362,12,True,True,True,4,True,True,False,False,False,,False
+U03_8b_F2_G1,U03,8b,how-to,False,F2,G1,4007,17,True,False,True,0,False,,False,False,False,,False
+U03_8b_F2_G2,U03,8b,how-to,False,F2,G2,500,3,False,False,False,0,False,,True,True,True,,True
+U04_3b_F0_G0,U04,3b,how-to,False,F0,G0,1380,6,True,True,,0,False,,False,True,False,,True
+U04_3b_F0_G1,U04,3b,how-to,False,F0,G1,1307,7,True,True,,2,True,True,False,True,False,,True
+U04_3b_F0_G2,U04,3b,how-to,False,F0,G2,273,2,False,False,,0,False,,True,True,True,,True
+U04_3b_F1_G0,U04,3b,how-to,False,F1,G0,616,4,False,False,True,0,False,,False,False,False,,False
+U04_3b_F1_G1,U04,3b,how-to,False,F1,G1,617,3,False,False,True,1,True,True,False,False,False,,False
+U04_3b_F1_G2,U04,3b,how-to,False,F1,G2,407,3,False,False,True,0,False,,True,True,True,,True
+U04_3b_F2_G0,U04,3b,how-to,False,F2,G0,2173,6,True,True,True,1,True,True,False,True,False,,True
+U04_3b_F2_G1,U04,3b,how-to,False,F2,G1,1879,9,True,True,True,1,True,True,False,True,False,,True
+U04_3b_F2_G2,U04,3b,how-to,False,F2,G2,248,2,False,False,False,0,False,,True,True,True,,True
+U04_8b_F0_G0,U04,8b,how-to,False,F0,G0,1575,5,True,True,,0,False,,False,True,False,,True
+U04_8b_F0_G1,U04,8b,how-to,False,F0,G1,1391,7,True,False,,0,False,,False,True,False,,True
+U04_8b_F0_G2,U04,8b,how-to,False,F0,G2,441,3,False,False,,0,False,,True,True,True,,True
+U04_8b_F1_G0,U04,8b,how-to,False,F1,G0,674,5,False,False,True,0,False,,False,False,False,,False
+U04_8b_F1_G1,U04,8b,how-to,False,F1,G1,896,6,False,False,False,0,False,,False,False,False,,False
+U04_8b_F1_G2,U04,8b,how-to,False,F1,G2,394,3,False,False,True,0,False,,True,True,True,,True
+U04_8b_F2_G0,U04,8b,how-to,False,F2,G0,2320,8,True,True,True,0,False,,False,True,False,,True
+U04_8b_F2_G1,U04,8b,how-to,False,F2,G1,2221,7,True,True,True,1,True,True,False,False,False,,False
+U04_8b_F2_G2,U04,8b,how-to,False,F2,G2,457,3,False,False,False,0,False,,True,True,True,,True
+U05_3b_F0_G0,U05,3b,troubleshooting,False,F0,G0,2580,9,True,True,,0,False,,False,False,False,,False
+U05_3b_F0_G1,U05,3b,troubleshooting,False,F0,G1,1553,6,True,True,,6,True,True,False,False,False,,False
+U05_3b_F0_G2,U05,3b,troubleshooting,False,F0,G2,454,4,False,False,,0,False,,True,True,True,,True
+U05_3b_F1_G0,U05,3b,troubleshooting,False,F1,G0,625,3,False,False,True,0,False,,False,False,False,,False
+U05_3b_F1_G1,U05,3b,troubleshooting,False,F1,G1,691,4,False,False,True,2,True,True,False,False,False,,False
+U05_3b_F1_G2,U05,3b,troubleshooting,False,F1,G2,544,4,False,False,True,0,False,,True,True,True,,True
+U05_3b_F2_G0,U05,3b,troubleshooting,False,F2,G0,3334,11,True,True,True,0,False,,False,False,False,,False
+U05_3b_F2_G1,U05,3b,troubleshooting,False,F2,G1,2087,5,True,True,True,5,True,True,False,False,False,,False
+U05_3b_F2_G2,U05,3b,troubleshooting,False,F2,G2,2176,8,True,True,True,2,True,True,False,True,False,,True
+U05_8b_F0_G0,U05,8b,troubleshooting,False,F0,G0,4352,14,True,True,,10,True,True,False,False,False,,False
+U05_8b_F0_G1,U05,8b,troubleshooting,False,F0,G1,1709,10,True,False,,4,True,True,False,True,False,,True
+U05_8b_F0_G2,U05,8b,troubleshooting,False,F0,G2,346,3,False,False,,0,False,,True,True,True,,True
+U05_8b_F1_G0,U05,8b,troubleshooting,False,F1,G0,910,5,False,False,True,0,False,,False,False,False,,False
+U05_8b_F1_G1,U05,8b,troubleshooting,False,F1,G1,766,5,False,False,True,2,True,True,False,False,False,,False
+U05_8b_F1_G2,U05,8b,troubleshooting,False,F1,G2,539,3,False,False,True,1,True,True,True,True,True,,True
+U05_8b_F2_G0,U05,8b,troubleshooting,False,F2,G0,4256,20,True,True,True,6,True,True,False,False,False,,False
+U05_8b_F2_G1,U05,8b,troubleshooting,False,F2,G1,2813,10,True,True,False,5,True,True,False,False,False,,False
+U05_8b_F2_G2,U05,8b,troubleshooting,False,F2,G2,442,3,False,False,False,0,False,,True,True,True,,True
+U06_3b_F0_G0,U06,3b,troubleshooting,False,F0,G0,2220,8,True,True,,4,True,True,False,True,False,,True
+U06_3b_F0_G1,U06,3b,troubleshooting,False,F0,G1,1825,10,True,False,,4,True,True,False,False,False,,False
+U06_3b_F0_G2,U06,3b,troubleshooting,False,F0,G2,410,3,False,False,,0,False,,True,True,True,,True
+U06_3b_F1_G0,U06,3b,troubleshooting,False,F1,G0,725,4,False,False,True,0,False,,False,False,False,,False
+U06_3b_F1_G1,U06,3b,troubleshooting,False,F1,G1,771,4,False,False,True,1,True,True,False,True,False,,True
+U06_3b_F1_G2,U06,3b,troubleshooting,False,F1,G2,379,3,False,False,True,0,False,,True,True,True,,True
+U06_3b_F2_G0,U06,3b,troubleshooting,False,F2,G0,2601,12,True,True,True,0,False,,False,True,False,,True
+U06_3b_F2_G1,U06,3b,troubleshooting,False,F2,G1,3206,11,True,True,True,5,True,True,False,False,False,,False
+U06_3b_F2_G2,U06,3b,troubleshooting,False,F2,G2,453,3,False,False,False,0,False,,True,True,True,,True
+U06_8b_F0_G0,U06,8b,troubleshooting,False,F0,G0,2330,8,True,True,,0,False,,False,False,False,,False
+U06_8b_F0_G1,U06,8b,troubleshooting,False,F0,G1,1364,7,False,False,,1,True,True,False,False,False,,False
+U06_8b_F0_G2,U06,8b,troubleshooting,False,F0,G2,330,2,False,False,,0,False,,True,True,True,,True
+U06_8b_F1_G0,U06,8b,troubleshooting,False,F1,G0,957,5,False,False,True,0,False,,False,False,False,,False
+U06_8b_F1_G1,U06,8b,troubleshooting,False,F1,G1,982,5,False,False,True,2,True,True,False,False,False,,False
+U06_8b_F1_G2,U06,8b,troubleshooting,False,F1,G2,442,3,False,False,True,0,False,,True,True,True,,True
+U06_8b_F2_G0,U06,8b,troubleshooting,False,F2,G0,4955,14,True,True,False,6,True,True,False,True,False,,True
+U06_8b_F2_G1,U06,8b,troubleshooting,False,F2,G1,2796,5,True,True,True,6,True,True,False,True,False,,True
+U06_8b_F2_G2,U06,8b,troubleshooting,False,F2,G2,750,9,True,False,True,5,True,True,True,True,True,,True
+U07_3b_F0_G0,U07,3b,configuration,False,F0,G0,1072,7,True,False,,0,False,,False,True,False,,True
+U07_3b_F0_G1,U07,3b,configuration,False,F0,G1,759,4,False,False,,0,False,,False,False,False,,False
+U07_3b_F0_G2,U07,3b,configuration,False,F0,G2,57,1,False,False,,0,False,,True,True,True,,True
+U07_3b_F1_G0,U07,3b,configuration,False,F1,G0,601,3,False,False,True,0,False,,False,True,False,,True
+U07_3b_F1_G1,U07,3b,configuration,False,F1,G1,540,3,False,False,True,2,True,True,False,True,False,,True
+U07_3b_F1_G2,U07,3b,configuration,False,F1,G2,381,3,False,False,True,0,False,,True,True,True,,True
+U07_3b_F2_G0,U07,3b,configuration,False,F2,G0,1585,7,True,True,True,0,False,,False,True,False,,True
+U07_3b_F2_G1,U07,3b,configuration,False,F2,G1,981,3,True,True,False,2,True,True,False,True,False,,True
+U07_3b_F2_G2,U07,3b,configuration,False,F2,G2,275,2,False,False,False,0,False,,True,True,True,,True
+U07_8b_F0_G0,U07,8b,configuration,False,F0,G0,775,5,False,False,,2,True,True,False,True,False,,True
+U07_8b_F0_G1,U07,8b,configuration,False,F0,G1,680,4,False,False,,1,True,True,False,True,False,,True
+U07_8b_F0_G2,U07,8b,configuration,False,F0,G2,275,2,False,False,,0,False,,True,True,True,,True
+U07_8b_F1_G0,U07,8b,configuration,False,F1,G0,624,5,False,False,True,0,False,,False,False,False,,False
+U07_8b_F1_G1,U07,8b,configuration,False,F1,G1,681,5,False,False,True,1,True,True,False,False,False,,False
+U07_8b_F1_G2,U07,8b,configuration,False,F1,G2,423,3,False,False,True,0,False,,True,True,True,,True
+U07_8b_F2_G0,U07,8b,configuration,False,F2,G0,1509,8,True,False,True,3,True,True,False,False,False,,False
+U07_8b_F2_G1,U07,8b,configuration,False,F2,G1,1174,5,True,True,True,2,True,True,False,True,False,,True
+U07_8b_F2_G2,U07,8b,configuration,False,F2,G2,291,2,False,False,False,0,False,,True,True,True,,True
+U08_3b_F0_G0,U08,3b,configuration,False,F0,G0,959,5,True,False,,1,True,True,False,True,False,,True
+U08_3b_F0_G1,U08,3b,configuration,False,F0,G1,696,4,True,False,,0,False,,False,True,False,,True
+U08_3b_F0_G2,U08,3b,configuration,False,F0,G2,57,1,False,False,,0,False,,True,True,True,,True
+U08_3b_F1_G0,U08,3b,configuration,False,F1,G0,810,4,False,False,True,0,False,,False,True,False,,True
+U08_3b_F1_G1,U08,3b,configuration,False,F1,G1,832,4,False,False,True,0,False,,False,False,False,,False
+U08_3b_F1_G2,U08,3b,configuration,False,F1,G2,359,3,False,False,True,0,False,,True,True,True,,True
+U08_3b_F2_G0,U08,3b,configuration,False,F2,G0,1952,8,True,True,True,5,True,True,False,False,False,,False
+U08_3b_F2_G1,U08,3b,configuration,False,F2,G1,1032,3,True,False,True,0,False,,False,True,False,,True
+U08_3b_F2_G2,U08,3b,configuration,False,F2,G2,57,1,False,False,False,0,False,,True,True,True,,True
+U08_8b_F0_G0,U08,8b,configuration,False,F0,G0,1029,5,True,False,,0,False,,False,True,False,,True
+U08_8b_F0_G1,U08,8b,configuration,False,F0,G1,766,5,False,False,,1,True,True,False,True,False,,True
+U08_8b_F0_G2,U08,8b,configuration,False,F0,G2,57,1,False,False,,0,False,,True,True,True,,True
+U08_8b_F1_G0,U08,8b,configuration,False,F1,G0,709,5,False,False,True,0,False,,False,False,False,,False
+U08_8b_F1_G1,U08,8b,configuration,False,F1,G1,831,5,False,False,True,1,True,True,False,False,False,,False
+U08_8b_F1_G2,U08,8b,configuration,False,F1,G2,57,1,False,False,False,0,False,,True,True,True,,True
+U08_8b_F2_G0,U08,8b,configuration,False,F2,G0,1732,5,True,True,True,4,True,True,False,False,False,,False
+U08_8b_F2_G1,U08,8b,configuration,False,F2,G1,1352,4,True,True,True,2,True,True,False,True,False,,True
+U08_8b_F2_G2,U08,8b,configuration,False,F2,G2,57,1,False,False,False,0,False,,True,True,True,,True
+U09_3b_F0_G0,U09,3b,api usage,False,F0,G0,1464,4,True,True,,1,True,True,False,False,False,,False
+U09_3b_F0_G1,U09,3b,api usage,False,F0,G1,880,3,True,False,,2,True,True,False,False,False,,False
+U09_3b_F0_G2,U09,3b,api usage,False,F0,G2,329,3,False,False,,0,False,,True,True,True,,True
+U09_3b_F1_G0,U09,3b,api usage,False,F1,G0,738,4,False,False,True,0,False,,False,False,False,,False
+U09_3b_F1_G1,U09,3b,api usage,False,F1,G1,628,4,False,False,True,2,True,True,False,False,False,,False
+U09_3b_F1_G2,U09,3b,api usage,False,F1,G2,532,3,False,False,True,0,False,,False,False,False,,False
+U09_3b_F2_G0,U09,3b,api usage,False,F2,G0,2145,5,True,True,True,1,True,True,False,False,False,,False
+U09_3b_F2_G1,U09,3b,api usage,False,F2,G1,1896,8,True,False,True,7,True,True,False,True,False,,True
+U09_3b_F2_G2,U09,3b,api usage,False,F2,G2,1471,6,True,False,True,0,False,,True,True,True,,True
+U09_8b_F0_G0,U09,8b,api usage,False,F0,G0,1998,4,True,True,,4,True,True,False,False,False,,False
+U09_8b_F0_G1,U09,8b,api usage,False,F0,G1,2117,12,True,True,,10,True,True,False,False,False,,False
+U09_8b_F0_G2,U09,8b,api usage,False,F0,G2,478,3,False,False,,2,True,True,True,True,True,,True
+U09_8b_F1_G0,U09,8b,api usage,False,F1,G0,862,5,False,False,True,2,True,True,False,False,False,,False
+U09_8b_F1_G1,U09,8b,api usage,False,F1,G1,883,5,False,False,True,2,True,True,False,False,False,,False
+U09_8b_F1_G2,U09,8b,api usage,False,F1,G2,909,5,False,False,True,1,True,True,False,False,False,,False
+U09_8b_F2_G0,U09,8b,api usage,False,F2,G0,2625,12,True,True,True,4,True,True,False,False,False,,False
+U09_8b_F2_G1,U09,8b,api usage,False,F2,G1,2459,6,True,True,True,7,True,True,False,False,False,,False
+U09_8b_F2_G2,U09,8b,api usage,False,F2,G2,752,6,True,True,True,1,True,True,True,True,True,,True
+U10_3b_F0_G0,U10,3b,api usage,False,F0,G0,3147,6,True,True,,0,False,,False,False,False,,False
+U10_3b_F0_G1,U10,3b,api usage,False,F0,G1,1744,4,True,True,,1,True,True,False,True,False,,True
+U10_3b_F0_G2,U10,3b,api usage,False,F0,G2,317,3,False,False,,0,False,,True,True,True,,True
+U10_3b_F1_G0,U10,3b,api usage,False,F1,G0,872,4,False,False,True,1,True,True,False,False,False,,False
+U10_3b_F1_G1,U10,3b,api usage,False,F1,G1,749,3,False,False,True,1,True,True,False,False,False,,False
+U10_3b_F1_G2,U10,3b,api usage,False,F1,G2,317,3,False,False,True,0,False,,True,True,True,,True
+U10_3b_F2_G0,U10,3b,api usage,False,F2,G0,3276,11,True,True,True,4,True,True,False,True,False,,True
+U10_3b_F2_G1,U10,3b,api usage,False,F2,G1,2522,8,True,True,True,8,True,True,False,True,False,,True
+U10_3b_F2_G2,U10,3b,api usage,False,F2,G2,302,3,False,False,False,0,False,,True,True,True,,True
+U10_8b_F0_G0,U10,8b,api usage,False,F0,G0,2016,3,True,True,,1,True,True,False,False,False,,False
+U10_8b_F0_G1,U10,8b,api usage,False,F0,G1,2442,8,True,True,,6,True,True,False,True,False,,True
+U10_8b_F0_G2,U10,8b,api usage,False,F0,G2,349,3,False,False,,0,False,,True,True,True,,True
+U10_8b_F1_G0,U10,8b,api usage,False,F1,G0,832,5,False,False,True,0,False,,False,False,False,,False
+U10_8b_F1_G1,U10,8b,api usage,False,F1,G1,968,5,False,False,True,2,True,True,False,False,False,,False
+U10_8b_F1_G2,U10,8b,api usage,False,F1,G2,407,3,False,False,True,0,False,,True,True,True,,True
+U10_8b_F2_G0,U10,8b,api usage,False,F2,G0,3029,15,True,True,True,2,True,True,False,False,False,,False
+U10_8b_F2_G1,U10,8b,api usage,False,F2,G1,3037,8,True,True,True,5,True,True,False,True,False,,True
+U10_8b_F2_G2,U10,8b,api usage,False,F2,G2,303,3,False,False,False,0,False,,True,True,True,,True

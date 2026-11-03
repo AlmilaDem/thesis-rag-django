@@ -1,0 +1,16 @@
+{
+  "questions": [
+    "Q01",
+    "Q06",
+    "Q11",
+    "Q16",
+    "Q21"
+  ],
+  "repeats": 5,
+  "temperature": 0,
+  "seed": 42,
+  "models": {
+    "3b": "ministral-3b-2512",
+    "8b": "ministral-8b-2512"
+  }
+}

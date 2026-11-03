@@ -1,0 +1,36 @@
+id,type,answerable,page_hit,section_hit,retrieved
+Q01,definition,True,True,True,models/Field options ; models/Field options ; models/Field options ; models/Fields ; models/Field options
+Q02,definition,True,True,True,models/Meta inheritance ; models/Abstract base classes ; models/Meta inheritance ; models/Model inheritance ; models/Model inheritance
+Q03,definition,True,True,True,models/Proxy models ; models/Differences between proxy inheritance and unmanaged models ; models/Differences between proxy inheritance and unmanaged models ; models/Proxy model managers ; models/Proxy models
+Q04,definition,True,True,False,logging/Overview ; logging/Examples ; logging/Examples ; logging/Examples ; logging/Configuring logging
+Q05,definition,True,True,True,urls/Reverse resolution of URLs ; urls/Including other URLconfs ; urls/How Django processes a request ; urls/Including other URLconfs ; urls/Overview
+Q06,how-to,True,True,True,models/Using models ; models/Organizing models in a package ; settings/Calling django.setup() is required for “standalone” Django usage ; models/Models across files ; models/Models
+Q07,how-to,True,True,True,models/Many-to-many relationships ; models/Many-to-one relationships ; models/Extra fields on many-to-many relationships ; models/One-to-one relationships ; models/Extra fields on many-to-many relationships
+Q08,how-to,True,True,True,urls/Including other URLconfs ; urls/Including other URLconfs ; urls/URL namespaces and included URLconfs ; urls/Passing extra options to include() ; urls/URL namespaces and included URLconfs
+Q09,how-to,True,True,True,settings/Available settings ; settings/Using settings in Python code ; settings/Custom default settings ; settings/The basics ; settings/Using settings without setting DJANGO_SETTINGS_MODULE
+Q10,how-to,True,True,True,urls/Nested arguments ; urls/Passing extra options to view functions ; urls/Captured parameters ; urls/Passing extra options to view functions ; urls/Passing extra options to include()
+Q11,troubleshooting,True,True,True,urls/Using regular expressions ; urls/Examples ; urls/Example ; urls/Examples ; urls/Example
+Q12,troubleshooting,True,True,True,models/Field name restrictions ; models/Field name “hiding” is not permitted ; models/Field name “hiding” is not permitted ; models/Be careful with related_name and related_query_name ; models/Field name restrictions
+Q13,troubleshooting,True,True,True,models/Be careful with related_name and related_query_name ; models/Be careful with related_name and related_query_name ; models/Be careful with related_name and related_query_name ; models/Meta inheritance ; models/Inheritance and reverse relations
+Q14,troubleshooting,True,True,True,settings/Either configure() or DJANGO_SETTINGS_MODULE is required ; settings/Calling django.setup() is required for “standalone” Django usage ; settings/Calling django.setup() is required for “standalone” Django usage ; settings/Using settings in Python code ; settings/Altering settings at runtime
+Q15,troubleshooting,True,True,True,deployment/ALLOWED_HOSTS ; deployment/ALLOWED_HOSTS ; settings/On the server ( mod_wsgi) ; settings/Altering settings at runtime ; settings/Designating the settings
+Q16,configuration,True,True,True,deployment/SECRET_KEY ; deployment/SECRET_KEY ; deployment/Deployment checklist ; settings/Security ; settings/Default settings
+Q17,configuration,True,True,True,deployment/CSRF_COOKIE_SECURE ; deployment/SESSION_COOKIE_SECURE ; deployment/HTTPS ; deployment/Deployment checklist ; deployment/Deployment checklist
+Q18,configuration,True,True,True,deployment/CONN_MAX_AGE ; deployment/DATABASES ; settings/Security ; deployment/CACHES ; deployment/Sessions
+Q19,configuration,True,True,True,settings/Altering settings at runtime ; settings/Calling django.setup() is required for “standalone” Django usage ; settings/Available settings ; settings/Calling django.setup() is required for “standalone” Django usage ; settings/Using settings without setting DJANGO_SETTINGS_MODULE
+Q20,configuration,True,True,True,deployment/ADMINS and MANAGERS ; logging/Examples ; logging/AdminEmailHandler ; logging/AdminEmailHandler ; logging/Handlers
+Q21,api usage,True,True,True,models/One-to-one relationships ; models/One-to-one relationships ; models/One-to-one relationships ; models/Extra fields on many-to-many relationships ; models/Multi-table inheritance
+Q22,api usage,True,True,True,models/Model methods ; models/Model methods ; models/Overriding predefined model methods ; urls/Reverse resolution of URLs ; urls/Example
+Q23,api usage,True,True,True,urls/Reversing namespaced URLs ; urls/Reversing namespaced URLs ; urls/URL namespaces and included URLconfs ; urls/Example ; urls/Example
+Q24,api usage,True,True,True,urls/Nested arguments ; urls/Using regular expressions ; urls/Specifying defaults for view arguments ; urls/Specifying defaults for view arguments ; urls/Example
+Q25,api usage,True,True,False,settings/Django settings ; settings/Default settings ; settings/Either configure() or DJANGO_SETTINGS_MODULE is required ; settings/Using settings in Python code ; settings/Calling django.setup() is required for “standalone” Django usage
+U01,definition,False,,,models/Be careful with related_name and related_query_name ; models/QuerySet s still return the model that was requested ; models/Be careful with related_name and related_query_name ; models/Extra fields on many-to-many relationships ; models/Extra fields on many-to-many relationships
+U02,definition,False,,,models/Fields ; models/One-to-one relationships ; models/Field options ; models/Extra fields on many-to-many relationships ; models/Field types
+U03,how-to,False,,,logging/Examples ; logging/Examples ; logging/Examples ; logging/Examples ; logging/Overview
+U04,how-to,False,,,deployment/Switch away from manage.py runserver ; models/Organizing models in a package ; deployment/Run manage.py check --deploy ; settings/The django-admin utility ; settings/Seeing which settings you’ve changed
+U05,troubleshooting,False,,,urls/How Django processes a request ; urls/Error handling ; urls/How Django processes a request ; urls/Example ; urls/Error handling
+U06,troubleshooting,False,,,logging/Disabling logging configuration ; logging/Loggers ; logging/Handlers ; logging/The cast of players ; logging/Security implications
+U07,configuration,False,,,models/Field options ; models/Field options ; settings/Default settings ; settings/Custom default settings ; settings/Custom default settings
+U08,configuration,False,,,deployment/SESSION_COOKIE_SECURE ; deployment/CSRF_COOKIE_SECURE ; logging/Disabling logging configuration ; deployment/Sessions ; logging/Security implications
+U09,api usage,False,,,urls/Overview ; urls/Reverse resolution of URLs ; urls/How Django processes a request ; urls/How Django processes a request ; models/Model methods
+U10,api usage,False,,,models/Overriding predefined model methods ; models/Extra fields on many-to-many relationships ; models/Field options ; models/Fields ; models/Field options

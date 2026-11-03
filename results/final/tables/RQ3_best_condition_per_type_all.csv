@@ -1,0 +1,6 @@
+type,best_condition,best_overall
+api usage,F0+G2,0.862
+configuration,F0+G2,0.885
+definition,F1+G1,0.906
+how-to,F0+G2,0.894
+troubleshooting,F1+G2,0.86

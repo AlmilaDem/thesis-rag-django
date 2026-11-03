@@ -1,0 +1,6 @@
+type,F0,F1,F2
+api usage,0.87,0.936,0.838
+configuration,0.847,0.861,0.832
+definition,0.925,0.943,0.915
+how-to,0.862,0.897,0.8
+troubleshooting,0.861,0.893,0.877

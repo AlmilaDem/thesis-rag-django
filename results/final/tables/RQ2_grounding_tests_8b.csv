@@ -1,0 +1,7 @@
+criterion,n_questions,friedman_chi2,friedman_p,G0_vs_G1_mean_diff,G0_vs_G1_p_holm,G0_vs_G2_mean_diff,G0_vs_G2_p_holm,G1_vs_G2_mean_diff,G1_vs_G2_p_holm
+technical_correctness,25,2.0,0.3679,-0.03,0.6178,-0.03,0.6178,-0.0,0.628
+clarity,25,3.0,0.2231,0.04,0.2498,0.05,0.2498,0.01,0.7389
+faithfulness,25,6.32,0.0424,-0.02,0.4607,-0.04,0.0479,-0.02,0.4607
+hallucination_control,25,0.613,0.7361,0.11,1.0,0.07,1.0,-0.04,1.0
+answer_relevance,25,2.444,0.2946,-0.01,0.762,0.01,0.762,0.02,0.2024
+overall,25,1.68,0.4317,-0.0,1.0,-0.01,0.7563,-0.0,1.0

@@ -1,0 +1,91 @@
+question_id,type,llm,formatting,grounding,n_repeats,n_unique,identical_all,mean_similarity,min_similarity,sd_chars
+Q01,definition,3b,F0,G0,5,5,False,0.3944,0.2145,122.0
+Q01,definition,3b,F0,G1,5,5,False,0.3562,0.2169,188.5
+Q01,definition,3b,F0,G2,5,5,False,0.6947,0.5866,43.4
+Q01,definition,3b,F1,G0,5,5,False,0.308,0.1926,62.4
+Q01,definition,3b,F1,G1,5,4,False,0.3064,0.1487,60.2
+Q01,definition,3b,F1,G2,5,5,False,0.5936,0.4717,39.2
+Q01,definition,3b,F2,G0,5,5,False,0.2582,0.1767,234.5
+Q01,definition,3b,F2,G1,5,5,False,0.4607,0.2092,76.9
+Q01,definition,3b,F2,G2,5,5,False,0.6591,0.496,55.6
+Q01,definition,8b,F0,G0,5,5,False,0.4696,0.2886,72.9
+Q01,definition,8b,F0,G1,5,5,False,0.3993,0.2236,148.6
+Q01,definition,8b,F0,G2,5,5,False,0.376,0.2289,115.2
+Q01,definition,8b,F1,G0,5,5,False,0.4193,0.276,46.2
+Q01,definition,8b,F1,G1,5,5,False,0.6324,0.4671,38.2
+Q01,definition,8b,F1,G2,5,5,False,0.5687,0.3808,74.0
+Q01,definition,8b,F2,G0,5,5,False,0.6429,0.3684,92.1
+Q01,definition,8b,F2,G1,5,5,False,0.5559,0.3404,45.5
+Q01,definition,8b,F2,G2,5,5,False,0.4996,0.2904,52.3
+Q06,how-to,3b,F0,G0,5,5,False,0.8521,0.7056,70.2
+Q06,how-to,3b,F0,G1,5,5,False,0.7374,0.5883,10.7
+Q06,how-to,3b,F0,G2,5,5,False,0.6856,0.4211,25.0
+Q06,how-to,3b,F1,G0,5,5,False,0.3948,0.2498,54.2
+Q06,how-to,3b,F1,G1,5,5,False,0.5485,0.3655,57.5
+Q06,how-to,3b,F1,G2,5,5,False,0.5231,0.3209,14.4
+Q06,how-to,3b,F2,G0,5,5,False,0.5264,0.3744,154.7
+Q06,how-to,3b,F2,G1,5,5,False,0.5342,0.3833,142.1
+Q06,how-to,3b,F2,G2,5,5,False,0.8013,0.6797,84.3
+Q06,how-to,8b,F0,G0,5,5,False,0.459,0.1229,162.1
+Q06,how-to,8b,F0,G1,5,5,False,0.4081,0.175,227.3
+Q06,how-to,8b,F0,G2,5,5,False,0.8241,0.6986,51.9
+Q06,how-to,8b,F1,G0,5,5,False,0.6162,0.1591,21.1
+Q06,how-to,8b,F1,G1,5,5,False,0.7317,0.5157,24.1
+Q06,how-to,8b,F1,G2,5,5,False,0.7845,0.6703,23.1
+Q06,how-to,8b,F2,G0,5,5,False,0.7736,0.6708,210.9
+Q06,how-to,8b,F2,G1,5,5,False,0.6106,0.4176,189.7
+Q06,how-to,8b,F2,G2,5,5,False,0.4899,0.2668,179.7
+Q11,troubleshooting,3b,F0,G0,5,5,False,0.2548,0.1068,370.0
+Q11,troubleshooting,3b,F0,G1,5,5,False,0.1952,0.1088,503.1
+Q11,troubleshooting,3b,F0,G2,5,5,False,0.6439,0.4305,72.9
+Q11,troubleshooting,3b,F1,G0,5,5,False,0.4267,0.3549,54.4
+Q11,troubleshooting,3b,F1,G1,5,5,False,0.5115,0.3734,30.4
+Q11,troubleshooting,3b,F1,G2,5,5,False,0.3949,0.2076,54.3
+Q11,troubleshooting,3b,F2,G0,5,5,False,0.2464,0.1771,158.0
+Q11,troubleshooting,3b,F2,G1,5,5,False,0.2371,0.1815,142.7
+Q11,troubleshooting,3b,F2,G2,5,5,False,0.2934,0.1409,418.3
+Q11,troubleshooting,8b,F0,G0,5,5,False,0.3879,0.1266,216.2
+Q11,troubleshooting,8b,F0,G1,5,5,False,0.7338,0.4617,91.2
+Q11,troubleshooting,8b,F0,G2,5,5,False,0.4277,0.3174,63.6
+Q11,troubleshooting,8b,F1,G0,5,5,False,0.3796,0.2621,48.9
+Q11,troubleshooting,8b,F1,G1,5,5,False,0.5462,0.4069,42.9
+Q11,troubleshooting,8b,F1,G2,5,5,False,0.4205,0.2251,39.5
+Q11,troubleshooting,8b,F2,G0,5,5,False,0.275,0.1685,156.0
+Q11,troubleshooting,8b,F2,G1,5,5,False,0.1703,0.0544,223.4
+Q11,troubleshooting,8b,F2,G2,5,5,False,0.6399,0.5352,112.8
+Q16,configuration,3b,F0,G0,5,5,False,0.4486,0.2691,177.9
+Q16,configuration,3b,F0,G1,5,5,False,0.2863,0.1824,367.1
+Q16,configuration,3b,F0,G2,5,5,False,0.4605,0.2654,155.8
+Q16,configuration,3b,F1,G0,5,5,False,0.6027,0.3889,42.0
+Q16,configuration,3b,F1,G1,5,5,False,0.4076,0.2993,97.9
+Q16,configuration,3b,F1,G2,5,5,False,0.465,0.3045,46.9
+Q16,configuration,3b,F2,G0,5,5,False,0.3321,0.2357,220.5
+Q16,configuration,3b,F2,G1,5,5,False,0.8006,0.5727,82.8
+Q16,configuration,3b,F2,G2,5,5,False,0.4854,0.3278,104.6
+Q16,configuration,8b,F0,G0,5,5,False,0.3969,0.2936,369.9
+Q16,configuration,8b,F0,G1,5,5,False,0.5695,0.4173,195.8
+Q16,configuration,8b,F0,G2,5,5,False,0.5366,0.2835,184.1
+Q16,configuration,8b,F1,G0,5,5,False,0.6142,0.5051,49.1
+Q16,configuration,8b,F1,G1,5,5,False,0.4155,0.2324,59.7
+Q16,configuration,8b,F1,G2,5,5,False,0.5724,0.4339,39.2
+Q16,configuration,8b,F2,G0,5,5,False,0.2757,0.146,252.2
+Q16,configuration,8b,F2,G1,5,5,False,0.5281,0.3925,147.3
+Q16,configuration,8b,F2,G2,5,5,False,0.4267,0.2083,304.7
+Q21,api usage,3b,F0,G0,5,5,False,0.4975,0.3892,365.4
+Q21,api usage,3b,F0,G1,5,5,False,0.3431,0.2344,332.0
+Q21,api usage,3b,F0,G2,5,5,False,0.5679,0.4631,194.9
+Q21,api usage,3b,F1,G0,5,5,False,0.5912,0.4369,55.9
+Q21,api usage,3b,F1,G1,5,5,False,0.5626,0.4144,47.0
+Q21,api usage,3b,F1,G2,5,5,False,0.6034,0.4164,32.5
+Q21,api usage,3b,F2,G0,5,5,False,0.2954,0.1803,473.0
+Q21,api usage,3b,F2,G1,5,5,False,0.3211,0.1602,239.0
+Q21,api usage,3b,F2,G2,5,5,False,0.4186,0.3016,85.1
+Q21,api usage,8b,F0,G0,5,5,False,0.417,0.2712,40.6
+Q21,api usage,8b,F0,G1,5,5,False,0.3798,0.2196,228.8
+Q21,api usage,8b,F0,G2,5,5,False,0.6282,0.5052,134.6
+Q21,api usage,8b,F1,G0,5,5,False,0.7914,0.5565,38.8
+Q21,api usage,8b,F1,G1,5,5,False,0.8245,0.753,64.8
+Q21,api usage,8b,F1,G2,5,5,False,0.775,0.6544,34.0
+Q21,api usage,8b,F2,G0,5,5,False,0.6032,0.4922,189.2
+Q21,api usage,8b,F2,G1,5,5,False,0.2821,0.1816,317.1
+Q21,api usage,8b,F2,G2,5,5,False,0.3965,0.2654,249.2

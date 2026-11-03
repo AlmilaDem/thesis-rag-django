@@ -1,0 +1,6 @@
+type,G0,G1,G2
+api usage,0.856,0.91,0.919
+configuration,0.767,0.879,0.854
+definition,0.904,0.963,0.947
+how-to,0.884,0.82,0.861
+troubleshooting,0.883,0.842,0.911

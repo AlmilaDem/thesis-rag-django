@@ -1,0 +1,7 @@
+,mean_sd,mean_range
+technical_correctness_s,0.097,0.223
+clarity_s,0.015,0.031
+faithfulness_s,0.075,0.176
+hallucination_control_s,0.107,0.233
+answer_relevance_s,0.037,0.084
+overall,0.042,0.102

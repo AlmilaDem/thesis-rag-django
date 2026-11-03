@@ -1,0 +1,21 @@
+scheme,type,best,best_score,second,second_score
+equal_5,api usage,F0+G2,0.862,F1+G2,0.861
+equal_5,configuration,F0+G2,0.885,F0+G1,0.856
+equal_5,definition,F1+G1,0.906,F1+G0,0.9
+equal_5,how-to,F0+G2,0.894,F0+G1,0.879
+equal_5,troubleshooting,F1+G2,0.86,F2+G0,0.845
+without_clarity,api usage,F0+G2,0.833,F1+G1,0.828
+without_clarity,configuration,F0+G2,0.862,F0+G1,0.82
+without_clarity,definition,F1+G1,0.889,F0+G2,0.879
+without_clarity,how-to,F0+G2,0.867,F0+G1,0.849
+without_clarity,troubleshooting,F1+G2,0.825,F2+G0,0.806
+support_double,api usage,F0+G2,0.875,F1+G2,0.862
+support_double,configuration,F0+G2,0.878,F0+G1,0.848
+support_double,definition,F1+G1,0.915,F1+G0,0.908
+support_double,how-to,F0+G2,0.9,F0+G1,0.889
+support_double,troubleshooting,F1+G2,0.883,F0+G2,0.851
+correctness_double,api usage,F1+G2,0.84,F0+G2,0.836
+correctness_double,configuration,F0+G2,0.873,F0+G1,0.836
+correctness_double,definition,F1+G1,0.886,F1+G0,0.874
+correctness_double,how-to,F0+G2,0.869,F0+G1,0.845
+correctness_double,troubleshooting,F2+G0,0.818,F1+G2,0.816
