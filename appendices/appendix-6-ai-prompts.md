@@ -223,7 +223,7 @@ The prompts used to create the figures are given in [figure_prompts.md](figure_p
 
 ---
 
-## ChatGPT (OpenAI), continued
+## ChatGPT (OpenAI)
 
 ### Prompt 16
 
@@ -262,7 +262,7 @@ The prompts used to create the figures are given in [figure_prompts.md](figure_p
 
 ---
 
-## Claude (Anthropic), continued
+## Claude (Anthropic)
 
 ### Prompt 19
 
